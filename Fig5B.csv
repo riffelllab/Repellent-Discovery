@@ -1,0 +1,409 @@
+Molecule Name,SMILES,Collections,A. stephenis hand-to-cage repellent testing: Experiment number,A. stephenis hand-to-cage repellent testing: Duration of recording (Min.),A. stephenis hand-to-cage repellent testing: Concentration (µg/cm2),A. stephenis hand-to-cage repellent testing: Evaporation time (Min.),A. stephenis hand-to-cage repellent testing: Compound volume (ml),A. stephenis hand-to-cage repellent testing: Surface (cm2),A. stephenis hand-to-cage repellent testing: Material,A. stephenis hand-to-cage repellent testing: Volunteer,A. stephenis hand-to-cage repellent testing: Volunteer alias,A. stephenis hand-to-cage repellent testing: Test Date,A. stephenis hand-to-cage repellent testing: Repellency (%),A. stephenis hand-to-cage repellent testing: Average repellency (%),A. stephenis hand-to-cage repellent testing: Average repellency (%) Standard Deviation (±),A. stephenis hand-to-cage repellent testing: Average repellency (%) Count,A. stephenis hand-to-cage repellent testing: Concentration percentage (%)
+TQ-0044235,CCOC(=O)CCNCCc1ccccc1,"Expansion set 4, Tested on Culex",22JKON095,130,,5,1,37.5,Cheese cloth,Jessica,D,25-12-1900,25,39.2,20,2,
+TQ-0044235,CCOC(=O)CCNCCc1ccccc1,"Expansion set 4, Tested on Culex",22JKON095,130,,5,1,37.5,Cheese cloth,Jessica,D,25-12-1900,53.3,39.2,20,2,
+TQ-0044232,CC(C)(C)OC(=O)N1CCC(C(C)(C)N)CC1,"Expansion set 4, Tested on Culex",22JKON095,130,,5,1,37.5,Cheese cloth,Jessica,D,25-12-1900,10.3,9.93,0.581,2,
+TQ-0044232,CC(C)(C)OC(=O)N1CCC(C(C)(C)N)CC1,"Expansion set 4, Tested on Culex",22JKON095,130,,5,1,37.5,Cheese cloth,Jessica,D,25-12-1900,9.52,9.93,0.581,2,
+TQ-0044230,CC(=O)C1CCN(C(=O)OC(C)(C)C)C1,"Expansion set 4, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,22-Dec,71.4,90.5,16.5,3,
+TQ-0044230,CC(=O)C1CCN(C(=O)OC(C)(C)C)C1,"Expansion set 4, Tested on Culex",22JKON095,130,,5,1,37.5,Cheese cloth,Jessica,D,25-12-1900,100,90.5,16.5,3,
+TQ-0044230,CC(=O)C1CCN(C(=O)OC(C)(C)C)C1,"Expansion set 4, Tested on Culex",22JKON095,130,,5,1,37.5,Cheese cloth,Jessica,D,25-12-1900,100,90.5,16.5,3,
+TQ-0044221,CCCC1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 4, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,22-Dec,75,89.9,13.2,3,
+TQ-0044221,CCCC1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 4, Tested on Culex",22JKON095,130,,5,1,37.5,Cheese cloth,Jessica,D,25-12-1900,94.7,89.9,13.2,3,
+TQ-0044221,CCCC1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 4, Tested on Culex",22JKON095,130,,5,1,37.5,Cheese cloth,Jessica,D,25-12-1900,100,89.9,13.2,3,
+TQ-0044185,CC(C)(N)C(=O)NCC1CCCC1,Expansion set 3,23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,93.8,79.3,25.4,3,
+TQ-0044185,CC(C)(N)C(=O)NCC1CCCC1,Expansion set 3,23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,94.1,79.3,25.4,3,
+TQ-0044185,CC(C)(N)C(=O)NCC1CCCC1,Expansion set 3,23JKON051,130,,5,1,37.5,Cheese cloth,Jessica,D,21-7-2023,50,79.3,25.4,3,
+TQ-0044166,CC(C)(C)OC(=O)N1CCC2(CCCC2=O)CC1,Expansion set 3,22JKON055,5,,360,1,37.5,cheese cloth,Jessica,D,18-10-2022,20,17.1,4.04,2,
+TQ-0044166,CC(C)(C)OC(=O)N1CCC2(CCCC2=O)CC1,Expansion set 3,22JKON055,5,,360,1,37.5,cheese cloth,Jessica,D,18-10-2022,14.3,17.1,4.04,2,
+TQ-0044165,CC(C)(C)OC(=O)N1CCC2(CCC2=O)CC1,"Expansion set 3, Tested on Culex",22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,1-Nov,92.3,66.4,30.9,7,
+TQ-0044165,CC(C)(C)OC(=O)N1CCC2(CCC2=O)CC1,"Expansion set 3, Tested on Culex",22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,1-Nov,100,66.4,30.9,7,
+TQ-0044165,CC(C)(C)OC(=O)N1CCC2(CCC2=O)CC1,"Expansion set 3, Tested on Culex",22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,2-Nov,91.3,66.4,30.9,7,
+TQ-0044165,CC(C)(C)OC(=O)N1CCC2(CCC2=O)CC1,"Expansion set 3, Tested on Culex",22JKON063,5,,360,1,37.5,cheese cloth,Jessica,D,24-10-2022,77.8,66.4,30.9,7,
+TQ-0044165,CC(C)(C)OC(=O)N1CCC2(CCC2=O)CC1,"Expansion set 3, Tested on Culex",22JKON063,5,,360,1,37.5,cheese cloth,Jessica,D,24-10-2022,39.1,66.4,30.9,7,
+TQ-0044165,CC(C)(C)OC(=O)N1CCC2(CCC2=O)CC1,"Expansion set 3, Tested on Culex",22JKON055,5,,360,1,37.5,cheese cloth,Jessica,D,18-10-2022,25.8,66.4,30.9,7,
+TQ-0044165,CC(C)(C)OC(=O)N1CCC2(CCC2=O)CC1,"Expansion set 3, Tested on Culex",22JKON055,5,,360,1,37.5,cheese cloth,Jessica,D,18-10-2022,38.5,66.4,30.9,7,
+TQ-0044162,O=C(c1ccccc1)c1ccccc1,Expansion set 3,22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,1-Nov,100,90.2,6.32,6,
+TQ-0044162,O=C(c1ccccc1)c1ccccc1,Expansion set 3,22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,1-Nov,83.3,90.2,6.32,6,
+TQ-0044162,O=C(c1ccccc1)c1ccccc1,Expansion set 3,22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,2-Nov,90,90.2,6.32,6,
+TQ-0044162,O=C(c1ccccc1)c1ccccc1,Expansion set 3,22JKON055,5,,360,1,37.5,cheese cloth,Jessica,D,18-10-2022,83.3,90.2,6.32,6,
+TQ-0044162,O=C(c1ccccc1)c1ccccc1,Expansion set 3,22JKON054,5,,360,1,37.5,cheese cloth,Jessica,D,17-10-2022,92.9,90.2,6.32,6,
+TQ-0044162,O=C(c1ccccc1)c1ccccc1,Expansion set 3,22JKON054,5,,360,1,37.5,cheese cloth,Jessica,D,17-10-2022,91.7,90.2,6.32,6,
+TQ-0044161,O=C(c1ccccc1)c1cccnc1,"Expansion set 3, Tested on Culex",22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,1-Nov,88.9,61.2,24.1,6,
+TQ-0044161,O=C(c1ccccc1)c1cccnc1,"Expansion set 3, Tested on Culex",22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,1-Nov,66.7,61.2,24.1,6,
+TQ-0044161,O=C(c1ccccc1)c1cccnc1,"Expansion set 3, Tested on Culex",22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,2-Nov,77.8,61.2,24.1,6,
+TQ-0044161,O=C(c1ccccc1)c1cccnc1,"Expansion set 3, Tested on Culex",22JKON055,5,,360,1,37.5,cheese cloth,Jessica,D,18-10-2022,20,61.2,24.1,6,
+TQ-0044161,O=C(c1ccccc1)c1cccnc1,"Expansion set 3, Tested on Culex",22JKON054,5,,360,1,37.5,cheese cloth,Jessica,D,17-10-2022,63.6,61.2,24.1,6,
+TQ-0044161,O=C(c1ccccc1)c1cccnc1,"Expansion set 3, Tested on Culex",22JKON054,5,,360,1,37.5,cheese cloth,Jessica,D,17-10-2022,50,61.2,24.1,6,
+TQ-0044160,O=C(c1ccccc1)c1ccccn1,"Expansion set 3, Tested on Culex",22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,1-Nov,91.7,69.6,25.4,6,
+TQ-0044160,O=C(c1ccccc1)c1ccccn1,"Expansion set 3, Tested on Culex",22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,1-Nov,75,69.6,25.4,6,
+TQ-0044160,O=C(c1ccccc1)c1ccccn1,"Expansion set 3, Tested on Culex",22RHEN060,5,130,360,1,37.5,Cheese cloth,Rob,B,2-Nov,80,69.6,25.4,6,
+TQ-0044160,O=C(c1ccccc1)c1ccccn1,"Expansion set 3, Tested on Culex",22JKON055,5,,360,1,37.5,cheese cloth,Jessica,D,18-10-2022,56,69.6,25.4,6,
+TQ-0044160,O=C(c1ccccc1)c1ccccn1,"Expansion set 3, Tested on Culex",22JKON054,5,,360,1,37.5,cheese cloth,Jessica,D,17-10-2022,25,69.6,25.4,6,
+TQ-0044160,O=C(c1ccccc1)c1ccccn1,"Expansion set 3, Tested on Culex",22JKON054,5,,360,1,37.5,cheese cloth,Jessica,D,17-10-2022,90,69.6,25.4,6,
+TQ-0044100,CN(CCC#N)c1ccccc1,"Expansion set 2, Tested on Culex",23JKON034,5,130,360,1,37.5,Cheese cloth,Jessica,D,20-4-2023,80,79.2,16.3,3,
+TQ-0044100,CN(CCC#N)c1ccccc1,"Expansion set 2, Tested on Culex",23JKON034,5,130,360,1,37.5,Cheese cloth,Jessica,D,20-4-2023,95,79.2,16.3,3,
+TQ-0044100,CN(CCC#N)c1ccccc1,"Expansion set 2, Tested on Culex",23JKON034,5,130,360,1,37.5,Cheese cloth,Jessica,D,20-4-2023,62.5,79.2,16.3,3,
+TQ-0044095,Cc1ccc(C(=O)c2ccccc2)cc1,"Expansion set 2, Tested on Culex",23JKON034,5,130,360,1,37.5,Cheese cloth,Jessica,D,20-4-2023,63.6,65.8,24.5,5,
+TQ-0044095,Cc1ccc(C(=O)c2ccccc2)cc1,"Expansion set 2, Tested on Culex",23JKON034,5,130,360,1,37.5,Cheese cloth,Jessica,D,20-4-2023,71.4,65.8,24.5,5,
+TQ-0044095,Cc1ccc(C(=O)c2ccccc2)cc1,"Expansion set 2, Tested on Culex",23JKON034,5,130,360,1,37.5,Cheese cloth,Jessica,D,20-4-2023,25,65.8,24.5,5,
+TQ-0044095,Cc1ccc(C(=O)c2ccccc2)cc1,"Expansion set 2, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Nov,83.3,65.8,24.5,5,
+TQ-0044095,Cc1ccc(C(=O)c2ccccc2)cc1,"Expansion set 2, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Nov,85.7,65.8,24.5,5,
+TQ-0044094,Cc1c[nH]c2ccccc12,"Expansion set 2, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Dec,83.3,55.1,25.6,5,
+TQ-0044094,Cc1c[nH]c2ccccc12,"Expansion set 2, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Dec,33.3,55.1,25.6,5,
+TQ-0044094,Cc1c[nH]c2ccccc12,"Expansion set 2, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,82.6,55.1,25.6,5,
+TQ-0044094,Cc1c[nH]c2ccccc12,"Expansion set 2, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,35,55.1,25.6,5,
+TQ-0044094,Cc1c[nH]c2ccccc12,"Expansion set 2, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,41.2,55.1,25.6,5,
+TQ-0044076,CCOC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 2, Expansion set 4, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Dec,50,72.4,29,5,
+TQ-0044076,CCOC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 2, Expansion set 4, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Dec,33.3,72.4,29,5,
+TQ-0044076,CCOC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 2, Expansion set 4, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,88.2,72.4,29,5,
+TQ-0044076,CCOC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 2, Expansion set 4, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,100,72.4,29,5,
+TQ-0044076,CCOC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 2, Expansion set 4, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,90.5,72.4,29,5,
+TQ-0044074,COc1ccc(C=O)c(OC)c1,"Expansion set 2, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Dec,18.2,71.3,31.7,6,
+TQ-0044074,COc1ccc(C=O)c(OC)c1,"Expansion set 2, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Dec,46.2,71.3,31.7,6,
+TQ-0044074,COc1ccc(C=O)c(OC)c1,"Expansion set 2, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,22-Dec,93.8,71.3,31.7,6,
+TQ-0044074,COc1ccc(C=O)c(OC)c1,"Expansion set 2, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,94.4,71.3,31.7,6,
+TQ-0044074,COc1ccc(C=O)c(OC)c1,"Expansion set 2, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,88.9,71.3,31.7,6,
+TQ-0044074,COc1ccc(C=O)c(OC)c1,"Expansion set 2, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,86.7,71.3,31.7,6,
+TQ-0044066,COC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 2, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,90.9,72.7,34.1,3,
+TQ-0044066,COC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 2, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,93.8,72.7,34.1,3,
+TQ-0044066,COC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 2, Tested on Culex",23JKON051,130,,5,1,37.5,Cheese cloth,Jessica,D,21-7-2023,33.3,72.7,34.1,3,
+TQ-0044044,CCOC=C(C#N)C#N,"Expansion set 2, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Nov,87.5,47,35.7,6,
+TQ-0044044,CCOC=C(C#N)C#N,"Expansion set 2, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Nov,81.8,47,35.7,6,
+TQ-0044044,CCOC=C(C#N)C#N,"Expansion set 2, Tested on Culex",22RHEN061,5,130,360,1,37.5,Cheese cloth,Rob,B,21-Dec,-10,47,35.7,6,
+TQ-0044044,CCOC=C(C#N)C#N,"Expansion set 2, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,31.6,47,35.7,6,
+TQ-0044044,CCOC=C(C#N)C#N,"Expansion set 2, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,41.2,47,35.7,6,
+TQ-0044044,CCOC=C(C#N)C#N,"Expansion set 2, Tested on Culex",22JKON071,5,,360,1,37.5,cheese cloth,Jessica,D,8/11/2022,50,47,35.7,6,
+TQ-0043867,CC(=O)OCCOCOC(C)=O,"Batch 7 repellents, Expansion set 2",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,71.4,64,12.1,3,0.5
+TQ-0043867,CC(=O)OCCOCOC(C)=O,"Batch 7 repellents, Expansion set 2",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,50,64,12.1,3,0.5
+TQ-0043867,CC(=O)OCCOCOC(C)=O,"Batch 7 repellents, Expansion set 2",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,70.6,64,12.1,3,0.5
+TQ-0043866,CCOC(CC(C#N)C(=O)OCC)OCC,"Batch 7 repellents, Tested on Culex",22JKON035,5,,360,1,37.5,cheese cloth,Jessica,D,22-9-2022,92.9,95.7,3.97,6,
+TQ-0043866,CCOC(CC(C#N)C(=O)OCC)OCC,"Batch 7 repellents, Tested on Culex",22JKON034,5,,360,1,37.5,cheese cloth,Jessica,D,20-9-2022,90,95.7,3.97,6,
+TQ-0043866,CCOC(CC(C#N)C(=O)OCC)OCC,"Batch 7 repellents, Tested on Culex",22JKON034,5,,360,1,37.5,cheese cloth,Jessica,D,20-9-2022,96.6,95.7,3.97,6,
+TQ-0043866,CCOC(CC(C#N)C(=O)OCC)OCC,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,5-Aug,95,95.7,3.97,6,0.5
+TQ-0043866,CCOC(CC(C#N)C(=O)OCC)OCC,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,5-Aug,100,95.7,3.97,6,0.5
+TQ-0043866,CCOC(CC(C#N)C(=O)OCC)OCC,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,8-Aug,100,95.7,3.97,6,0.5
+TQ-0043863,CCCCCc1ccc(C(C)=O)cc1,Batch 7 repellents,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,80,80.6,5.85,3,0.5
+TQ-0043863,CCCCCc1ccc(C(C)=O)cc1,Batch 7 repellents,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,86.7,80.6,5.85,3,0.5
+TQ-0043863,CCCCCc1ccc(C(C)=O)cc1,Batch 7 repellents,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,75,80.6,5.85,3,0.5
+TQ-0043859,CCCCN(CCC#N)c1ccccc1,"Batch 7 repellents, Tested on Culex",22JKON012,5,130,360,1,37.5,cheese cloth,Jessica,D,23-8-2022,100,99.2,2.04,6,
+TQ-0043859,CCCCN(CCC#N)c1ccccc1,"Batch 7 repellents, Tested on Culex",22JKON011,5,130,360,1,37.5,cheese cloth,Jessica,D,22-8-2022,95,99.2,2.04,6,
+TQ-0043859,CCCCN(CCC#N)c1ccccc1,"Batch 7 repellents, Tested on Culex",22JKON011,5,130,360,1,37.5,cheese cloth,Jessica,D,22-8-2022,100,99.2,2.04,6,
+TQ-0043859,CCCCN(CCC#N)c1ccccc1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,3-Aug,100,99.2,2.04,6,0.5
+TQ-0043859,CCCCN(CCC#N)c1ccccc1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,3-Aug,100,99.2,2.04,6,0.5
+TQ-0043859,CCCCN(CCC#N)c1ccccc1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,5-Aug,100,99.2,2.04,6,0.5
+TQ-0043846,CCOC(=O)CCNCc1ccccc1,"Batch 7 repellents, Tested on Culex",22JKON012,5,130,360,1,37.5,cheese cloth,Jessica,D,23-8-2022,7.69,22.6,17,7,
+TQ-0043846,CCOC(=O)CCNCc1ccccc1,"Batch 7 repellents, Tested on Culex",22JKON011,5,130,360,1,37.5,cheese cloth,Jessica,D,22-8-2022,7.69,22.6,17,7,
+TQ-0043846,CCOC(=O)CCNCc1ccccc1,"Batch 7 repellents, Tested on Culex",22JKON011,5,130,360,1,37.5,cheese cloth,Jessica,D,22-8-2022,50,22.6,17,7,
+TQ-0043846,CCOC(=O)CCNCc1ccccc1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,8-Aug,40,22.6,17,7,0.5
+TQ-0043846,CCOC(=O)CCNCc1ccccc1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,8-Aug,11.1,22.6,17,7,0.5
+TQ-0043846,CCOC(=O)CCNCc1ccccc1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,10-Aug,28,22.6,17,7,0.5
+TQ-0043846,CCOC(=O)CCNCc1ccccc1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,10-Aug,13.6,22.6,17,7,0.5
+TQ-0043843,COC(=O)[C@@H]1COC(C)(C)N1C(=O)OC(C)(C)C,Batch 7 repellents,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,6.67,-6.11,55.3,3,0.5
+TQ-0043843,COC(=O)[C@@H]1COC(C)(C)N1C(=O)OC(C)(C)C,Batch 7 repellents,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,-66.7,-6.11,55.3,3,0.5
+TQ-0043843,COC(=O)[C@@H]1COC(C)(C)N1C(=O)OC(C)(C)C,Batch 7 repellents,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,41.7,-6.11,55.3,3,0.5
+TQ-0043842,CC(=O)c1ccccc1[N+]([O-])=O,Batch 7 repellents,22JKON029,5,,360,1,37.5,cheese cloth,Jessica,D,12/9/2022,100,98.9,1.7,6,
+TQ-0043842,CC(=O)c1ccccc1[N+]([O-])=O,Batch 7 repellents,22JKON023,5,,360,1,37.5,cheese cloth,Jessica,D,6/9/2022,96.3,98.9,1.7,6,
+TQ-0043842,CC(=O)c1ccccc1[N+]([O-])=O,Batch 7 repellents,22JKON023,5,,360,1,37.5,cheese cloth,Jessica,D,6/9/2022,97.2,98.9,1.7,6,
+TQ-0043842,CC(=O)c1ccccc1[N+]([O-])=O,Batch 7 repellents,22RHEN043,5,,360,1,37.5,Cheese cloth,,B,8-Aug,100,98.9,1.7,6,0.5
+TQ-0043842,CC(=O)c1ccccc1[N+]([O-])=O,Batch 7 repellents,22RHEN043,5,,360,1,37.5,Cheese cloth,,B,10-Aug,100,98.9,1.7,6,0.5
+TQ-0043842,CC(=O)c1ccccc1[N+]([O-])=O,Batch 7 repellents,22RHEN043,5,,360,1,37.5,Cheese cloth,,B,10-Aug,100,98.9,1.7,6,0.5
+TQ-0043841,[O-][N+](=O)c1ccc(C=O)c([N+]([O-])=O)c1,"Batch 7 repellents, Tested on Culex",22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,11-okt,66.7,74.8,12.6,6,
+TQ-0043841,[O-][N+](=O)c1ccc(C=O)c([N+]([O-])=O)c1,"Batch 7 repellents, Tested on Culex",22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,12-okt,87.5,74.8,12.6,6,
+TQ-0043841,[O-][N+](=O)c1ccc(C=O)c([N+]([O-])=O)c1,"Batch 7 repellents, Tested on Culex",22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,11-okt,91.3,74.8,12.6,6,
+TQ-0043841,[O-][N+](=O)c1ccc(C=O)c([N+]([O-])=O)c1,"Batch 7 repellents, Tested on Culex",22JKON035,5,,360,1,37.5,cheese cloth,Jessica,D,22-9-2022,62.5,74.8,12.6,6,
+TQ-0043841,[O-][N+](=O)c1ccc(C=O)c([N+]([O-])=O)c1,"Batch 7 repellents, Tested on Culex",22JKON033,5,,360,1,37.5,cheese cloth,Jessica,D,19-9-2022,63.2,74.8,12.6,6,
+TQ-0043841,[O-][N+](=O)c1ccc(C=O)c([N+]([O-])=O)c1,"Batch 7 repellents, Tested on Culex",22JKON033,5,,360,1,37.5,cheese cloth,Jessica,D,19-9-2022,77.8,74.8,12.6,6,
+TQ-0043828,CCCCOc1c(OCCCC)c(=O)c1=O,Batch 7 repellents,22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,11-okt,50,13.4,25.2,6,
+TQ-0043828,CCCCOc1c(OCCCC)c(=O)c1=O,Batch 7 repellents,22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,12-okt,20,13.4,25.2,6,
+TQ-0043828,CCCCOc1c(OCCCC)c(=O)c1=O,Batch 7 repellents,22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,11-okt,25,13.4,25.2,6,
+TQ-0043828,CCCCOc1c(OCCCC)c(=O)c1=O,Batch 7 repellents,22JKON035,5,,360,1,37.5,cheese cloth,Jessica,D,22-9-2022,15.4,13.4,25.2,6,
+TQ-0043828,CCCCOc1c(OCCCC)c(=O)c1=O,Batch 7 repellents,22JKON034,5,,360,1,37.5,cheese cloth,Jessica,D,20-9-2022,-18.2,13.4,25.2,6,
+TQ-0043828,CCCCOc1c(OCCCC)c(=O)c1=O,Batch 7 repellents,22JKON034,5,,360,1,37.5,cheese cloth,Jessica,D,20-9-2022,-12,13.4,25.2,6,
+TQ-0043820,CCO/C(C)=C(\C#N)C(=O)OCC,"Batch 7 repellents, Tested on Culex",22JKON029,5,,360,1,37.5,cheese cloth,Jessica,D,12/9/2022,71.4,79.4,15.2,6,
+TQ-0043820,CCO/C(C)=C(\C#N)C(=O)OCC,"Batch 7 repellents, Tested on Culex",22JKON022,5,,360,1,37.5,cheese cloth,Jessica,D,5/9/2022,76.5,79.4,15.2,6,
+TQ-0043820,CCO/C(C)=C(\C#N)C(=O)OCC,"Batch 7 repellents, Tested on Culex",22JKON022,5,,360,1,37.5,cheese cloth,Jessica,D,5/9/2022,100,79.4,15.2,6,
+TQ-0043820,CCO/C(C)=C(\C#N)C(=O)OCC,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,3-Aug,93.3,79.4,15.2,6,0.5
+TQ-0043820,CCO/C(C)=C(\C#N)C(=O)OCC,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,3-Aug,57.9,79.4,15.2,6,0.5
+TQ-0043820,CCO/C(C)=C(\C#N)C(=O)OCC,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,5-Aug,77.3,79.4,15.2,6,0.5
+TQ-0043810,O=C(c1ccccc1)c1ccncc1,"Batch 7 repellents, Tested on Culex",22JKON012,5,130,360,1,37.5,cheese cloth,Jessica,D,23-8-2022,88.9,89.1,3.21,6,
+TQ-0043810,O=C(c1ccccc1)c1ccncc1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,8-Aug,90.9,89.1,3.21,6,0.5
+TQ-0043810,O=C(c1ccccc1)c1ccncc1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,10-Aug,92.9,89.1,3.21,6,0.5
+TQ-0043810,O=C(c1ccccc1)c1ccncc1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,10-Aug,88.9,89.1,3.21,6,0.5
+TQ-0043810,O=C(c1ccccc1)c1ccncc1,"Batch 7 repellents, Tested on Culex",22JKON004,5,130,360,1,37.5,cheese cloth,Jessica,D,15-8-2022,90,89.1,3.21,6,
+TQ-0043810,O=C(c1ccccc1)c1ccncc1,"Batch 7 repellents, Tested on Culex",22JKON004,5,130,360,1,37.5,cheese cloth,Jessica,D,15-8-2022,83.3,89.1,3.21,6,
+TQ-0043808,CN(C)c1cccc(CO)c1,"Batch 7 repellents, Tested on Culex",22JKON055,5,,360,1,37.5,cheese cloth,Jessica,D,18-10-2022,13.6,36,11.5,7,
+TQ-0043808,CN(C)c1cccc(CO)c1,"Batch 7 repellents, Tested on Culex",22JKON054,5,,360,1,37.5,cheese cloth,Jessica,D,17-10-2022,33.3,36,11.5,7,
+TQ-0043808,CN(C)c1cccc(CO)c1,"Batch 7 repellents, Tested on Culex",22JKON054,5,,360,1,37.5,cheese cloth,Jessica,D,17-10-2022,50,36,11.5,7,
+TQ-0043808,CN(C)c1cccc(CO)c1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,8-Aug,40,36,11.5,7,0.5
+TQ-0043808,CN(C)c1cccc(CO)c1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,8-Aug,33.3,36,11.5,7,0.5
+TQ-0043808,CN(C)c1cccc(CO)c1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,10-Aug,37.5,36,11.5,7,0.5
+TQ-0043808,CN(C)c1cccc(CO)c1,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,10-Aug,44.1,36,11.5,7,0.5
+TQ-0043807,CC1CN(Cc2ccccc2)CCC1=O,"Batch 7 repellents, Tested on Culex",22JKON035,5,,360,1,37.5,cheese cloth,Jessica,D,22-9-2022,83.3,76.9,11.8,6,
+TQ-0043807,CC1CN(Cc2ccccc2)CCC1=O,"Batch 7 repellents, Tested on Culex",22JKON033,5,,360,1,37.5,cheese cloth,Jessica,D,19-9-2022,77.8,76.9,11.8,6,
+TQ-0043807,CC1CN(Cc2ccccc2)CCC1=O,"Batch 7 repellents, Tested on Culex",22JKON033,5,,360,1,37.5,cheese cloth,Jessica,D,19-9-2022,56,76.9,11.8,6,
+TQ-0043807,CC1CN(Cc2ccccc2)CCC1=O,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,5-Aug,77.8,76.9,11.8,6,0.5
+TQ-0043807,CC1CN(Cc2ccccc2)CCC1=O,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,5-Aug,75,76.9,11.8,6,0.5
+TQ-0043807,CC1CN(Cc2ccccc2)CCC1=O,"Batch 7 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,8-Aug,91.7,76.9,11.8,6,0.5
+TQ-0043805,CN(C)c1ccc(C=O)cc1,"Analogs, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,0,6.43,7.25,3,
+TQ-0043805,CN(C)c1ccc(C=O)cc1,"Analogs, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,5,6.43,7.25,3,
+TQ-0043805,CN(C)c1ccc(C=O)cc1,"Analogs, Tested on Culex",23JKON051,130,,5,1,37.5,Cheese cloth,Jessica,D,21-7-2023,14.3,6.43,7.25,3,
+TQ-0043794,CCN(CC)c1ccc(C#N)cc1,"Analogs, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,91.3,61.2,53,3,
+TQ-0043794,CCN(CC)c1ccc(C#N)cc1,"Analogs, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,92.3,61.2,53,3,
+TQ-0043794,CCN(CC)c1ccc(C#N)cc1,"Analogs, Tested on Culex",23JKON051,130,,5,1,37.5,Cheese cloth,Jessica,D,21-7-2023,0,61.2,53,3,
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22JKON012,5,130,360,1,37.5,cheese cloth,Jessica,D,23-8-2022,100,90.3,9.7,12,
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22JKON004,5,130,360,1,37.5,cheese cloth,Jessica,D,15-8-2022,93.3,90.3,9.7,12,
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22JKON004,5,130,360,1,37.5,cheese cloth,Jessica,D,15-8-2022,88.2,90.3,9.7,12,
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER042,5,,360,1,37.5,Cheese cloth,,A,,90.9,90.3,9.7,12,0.5
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,100,90.3,9.7,12,0.5
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,87.5,90.3,9.7,12,0.5
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,91.7,90.3,9.7,12,0.5
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,62.5,90.3,9.7,12,0.5
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,92.6,90.3,9.7,12,0.5
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,8-Jun,94.7,90.3,9.7,12,0.5
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,87.5,90.3,9.7,12,0.5
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,94.4,90.3,9.7,12,0.5
+TQ-0043739,CSc1ccc(CO)cc1,Batch 6.2,22LBER042,5,,360,1,37.5,Cheese cloth,,A,,38.5,-40.2,69.8,5,0.5
+TQ-0043739,CSc1ccc(CO)cc1,Batch 6.2,22LBER045,5,,360,1,37.5,Cheese cloth,,A,,-81.8,-40.2,69.8,5,0.5
+TQ-0043739,CSc1ccc(CO)cc1,Batch 6.2,22LBER045,5,,360,1,37.5,Cheese cloth,,A,,33.3,-40.2,69.8,5,0.5
+TQ-0043739,CSc1ccc(CO)cc1,Batch 6.2,22LBER047,5,,360,1,37.5,Cheese cloth,,B,,-100,-40.2,69.8,5,0.5
+TQ-0043739,CSc1ccc(CO)cc1,Batch 6.2,22LBER047,5,,360,1,37.5,Cheese cloth,,B,,-90.9,-40.2,69.8,5,0.5
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22JKON012,5,130,360,1,37.5,cheese cloth,Jessica,D,23-8-2022,63.6,70.9,23.3,12,
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22JKON011,5,130,360,1,37.5,cheese cloth,Jessica,D,22-8-2022,35.3,70.9,23.3,12,
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22JKON011,5,130,360,1,37.5,cheese cloth,Jessica,D,22-8-2022,75,70.9,23.3,12,
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22LBER039,5,,360,1,37.5,Cheese cloth,,A,,33.3,70.9,23.3,12,0.5
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22LBER042,5,,360,1,37.5,Cheese cloth,,A,,65,70.9,23.3,12,0.5
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,50,70.9,23.3,12,0.5
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,88.9,70.9,23.3,12,0.5
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,61.5,70.9,23.3,12,0.5
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,85.7,70.9,23.3,12,0.5
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,14-Jun,100,70.9,23.3,12,0.5
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,96.6,70.9,23.3,12,0.5
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,96.2,70.9,23.3,12,0.5
+TQ-0043710,CCC1=C(C)CNC1=O,"Batch 6.2, Tested on Culex",22JKON012,5,130,360,1,37.5,cheese cloth,Jessica,D,23-8-2022,14.3,28.4,20.4,8,
+TQ-0043710,CCC1=C(C)CNC1=O,"Batch 6.2, Tested on Culex",22JKON004,5,130,360,1,37.5,cheese cloth,Jessica,D,15-8-2022,46.7,28.4,20.4,8,
+TQ-0043710,CCC1=C(C)CNC1=O,"Batch 6.2, Tested on Culex",22JKON004,5,130,360,1,37.5,cheese cloth,Jessica,D,15-8-2022,29.4,28.4,20.4,8,
+TQ-0043710,CCC1=C(C)CNC1=O,"Batch 6.2, Tested on Culex",22LBER042,5,,360,1,37.5,Cheese cloth,,A,,57.1,28.4,20.4,8,0.5
+TQ-0043710,CCC1=C(C)CNC1=O,"Batch 6.2, Tested on Culex",22LBER045,5,,360,1,37.5,Cheese cloth,,A,,0,28.4,20.4,8,0.5
+TQ-0043710,CCC1=C(C)CNC1=O,"Batch 6.2, Tested on Culex",22LBER045,5,,360,1,37.5,Cheese cloth,,A,,5.26,28.4,20.4,8,0.5
+TQ-0043710,CCC1=C(C)CNC1=O,"Batch 6.2, Tested on Culex",22RHEN034,5,,360,1,37.5,Cheese cloth,,B,,31.8,28.4,20.4,8,0.5
+TQ-0043710,CCC1=C(C)CNC1=O,"Batch 6.2, Tested on Culex",22RHEN034,5,,360,1,37.5,Cheese cloth,,B,,42.9,28.4,20.4,8,0.5
+TQ-0043708,CC/C=C(\C)C(O)=O,Batch 6.2,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,-10,15,22.9,3,0.5
+TQ-0043708,CC/C=C(\C)C(O)=O,Batch 6.2,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,20,15,22.9,3,0.5
+TQ-0043708,CC/C=C(\C)C(O)=O,Batch 6.2,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,35,15,22.9,3,0.5
+TQ-0043703,CC(=O)OCOC(COC(C)=O)COC(C)=O,Batch 6.2,22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,11-okt,30,4.98,30.6,9,
+TQ-0043703,CC(=O)OCOC(COC(C)=O)COC(C)=O,Batch 6.2,22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,12-okt,50,4.98,30.6,9,
+TQ-0043703,CC(=O)OCOC(COC(C)=O)COC(C)=O,Batch 6.2,22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,11-okt,0,4.98,30.6,9,
+TQ-0043703,CC(=O)OCOC(COC(C)=O)COC(C)=O,Batch 6.2,22JKON035,5,,360,1,37.5,cheese cloth,Jessica,D,22-9-2022,22.7,4.98,30.6,9,
+TQ-0043703,CC(=O)OCOC(COC(C)=O)COC(C)=O,Batch 6.2,22JKON034,5,,360,1,37.5,cheese cloth,Jessica,D,20-9-2022,3.57,4.98,30.6,9,
+TQ-0043703,CC(=O)OCOC(COC(C)=O)COC(C)=O,Batch 6.2,22JKON034,5,,360,1,37.5,cheese cloth,Jessica,D,20-9-2022,23.5,4.98,30.6,9,
+TQ-0043703,CC(=O)OCOC(COC(C)=O)COC(C)=O,Batch 6.2,22LBER039,5,,360,1,37.5,Cheese cloth,,A,,-25,4.98,30.6,9,0.5
+TQ-0043703,CC(=O)OCOC(COC(C)=O)COC(C)=O,Batch 6.2,22LBER046,5,,360,1,37.5,Cheese cloth,,A,,-10,4.98,30.6,9,0.5
+TQ-0043703,CC(=O)OCOC(COC(C)=O)COC(C)=O,Batch 6.2,22LBER046,5,,360,1,37.5,Cheese cloth,,A,,-50,4.98,30.6,9,0.5
+TQ-0043694,CCOC(=O)C1CCCNC1=O,"Batch 6.2, Glomeruli Aedes",22LBER039,5,,360,1,37.5,Cheese cloth,,A,,-42.9,-8.54,27.6,5,0.5
+TQ-0043694,CCOC(=O)C1CCCNC1=O,"Batch 6.2, Glomeruli Aedes",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,-28.6,-8.54,27.6,5,0.5
+TQ-0043694,CCOC(=O)C1CCCNC1=O,"Batch 6.2, Glomeruli Aedes",22LBER047,5,,360,1,37.5,Cheese cloth,,A,,-6.25,-8.54,27.6,5,0.5
+TQ-0043694,CCOC(=O)C1CCCNC1=O,"Batch 6.2, Glomeruli Aedes",22LBER047,5,,360,1,37.5,Cheese cloth,,B,,10,-8.54,27.6,5,0.5
+TQ-0043694,CCOC(=O)C1CCCNC1=O,"Batch 6.2, Glomeruli Aedes",22LBER047,5,,360,1,37.5,Cheese cloth,,B,,25,-8.54,27.6,5,0.5
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22JKON029,5,,360,1,37.5,cheese cloth,Jessica,D,12/9/2022,100,94.5,8.28,13,
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22JKON022,5,,360,1,37.5,cheese cloth,Jessica,D,5/9/2022,88.9,94.5,8.28,13,
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22JKON022,5,,360,1,37.5,cheese cloth,Jessica,D,5/9/2022,95,94.5,8.28,13,
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22LBER042,5,,360,1,37.5,Cheese cloth,,A,,100,94.5,8.28,13,0.5
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,100,94.5,8.28,13,0.5
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,100,94.5,8.28,13,0.5
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22LBER047,5,,360,1,37.5,Cheese cloth,,B,,100,94.5,8.28,13,0.5
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,100,94.5,8.28,13,0.5
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,100,94.5,8.28,13,0.5
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,100,94.5,8.28,13,0.5
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22MVLO321,5,,360,1,37.5,Cheese cloth,,C,,85.7,94.5,8.28,13,0.5
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22MVLO321,5,,360,1,37.5,Cheese cloth,,C,,77.3,94.5,8.28,13,0.5
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",22MVLO321,5,,360,1,37.5,Cheese cloth,,C,,81.2,94.5,8.28,13,0.5
+TQ-0043684,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1OC(=O)C(O)O,"Batch 6.2, Tested on Culex",22JKON029,5,,360,1,37.5,cheese cloth,Jessica,D,12/9/2022,0,37,25.4,8,
+TQ-0043684,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1OC(=O)C(O)O,"Batch 6.2, Tested on Culex",22JKON023,5,,360,1,37.5,cheese cloth,Jessica,D,6/9/2022,32.1,37,25.4,8,
+TQ-0043684,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1OC(=O)C(O)O,"Batch 6.2, Tested on Culex",22JKON023,5,,360,1,37.5,cheese cloth,Jessica,D,6/9/2022,19.2,37,25.4,8,
+TQ-0043684,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1OC(=O)C(O)O,"Batch 6.2, Tested on Culex",22LBER037,5,,360,1,37.5,Cheese cloth,,A,,35.7,37,25.4,8,0.5
+TQ-0043684,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1OC(=O)C(O)O,"Batch 6.2, Tested on Culex",22LBER038,5,,360,1,37.5,Cheese cloth,,A,,80,37,25.4,8,0.5
+TQ-0043684,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1OC(=O)C(O)O,"Batch 6.2, Tested on Culex",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,28.6,37,25.4,8,0.5
+TQ-0043684,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1OC(=O)C(O)O,"Batch 6.2, Tested on Culex",22RHEN034,5,,360,1,37.5,Cheese cloth,,B,,66.7,37,25.4,8,0.5
+TQ-0043684,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1OC(=O)C(O)O,"Batch 6.2, Tested on Culex",22RHEN034,5,,360,1,37.5,Cheese cloth,,B,,33.3,37,25.4,8,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22JKON079,5,,360,1,37.5,cheese cloth,Jessica,D,22-11-2011,91.9,86.2,11.9,21,
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22JKON079,5,,360,1,37.5,cheese cloth,Jessica,D,22-11-2011,88.9,86.2,11.9,21,
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER037,5,,360,1,37.5,Cheese cloth,,A,,88.9,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER038,5,,360,1,37.5,Cheese cloth,,A,,75,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER039,5,,360,1,37.5,Cheese cloth,,A,,60,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER042,5,,360,1,37.5,Cheese cloth,,A,,90,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER043,5,,360,1,37.5,Cheese cloth,,A,,89.5,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,70,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER045,5,,360,1,37.5,Cheese cloth,,A,,89.5,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,66.7,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER047,5,,360,1,37.5,Cheese cloth,,B,,100,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,66.7,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,80,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,88.2,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,100,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,87,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,96.2,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22RHEN034,5,,360,1,37.5,Cheese cloth,,B,,93.3,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,93.3,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,95.5,86.2,11.9,21,0.5
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,100,86.2,11.9,21,0.5
+TQ-0043680,COC(=O)c1ccc(C(=O)OC)o1,"Batch 6.2, Glomeruli Aedes",22LBER042,5,,360,1,37.5,Cheese cloth,,A,,30,17.2,32.8,3,0.5
+TQ-0043680,COC(=O)c1ccc(C(=O)OC)o1,"Batch 6.2, Glomeruli Aedes",22LBER045,5,,360,1,37.5,Cheese cloth,,A,,41.7,17.2,32.8,3,0.5
+TQ-0043680,COC(=O)c1ccc(C(=O)OC)o1,"Batch 6.2, Glomeruli Aedes",22LBER045,5,,360,1,37.5,Cheese cloth,,A,,-20,17.2,32.8,3,0.5
+TQ-0043674,CC(N(C)C)c1cccc(O)c1,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER039,5,,360,1,37.5,Cheese cloth,,A,,-11.1,-23.7,12,3,0.5
+TQ-0043674,CC(N(C)C)c1cccc(O)c1,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,-35,-23.7,12,3,0.5
+TQ-0043674,CC(N(C)C)c1cccc(O)c1,"Batch 6.2, Glomeruli Aedes, Tested on Culex",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,-25,-23.7,12,3,0.5
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22JKON012,5,130,360,1,37.5,cheese cloth,Jessica,D,23-8-2022,100,94.6,8.14,13,
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22JKON004,5,130,360,1,37.5,cheese cloth,Jessica,D,15-8-2022,100,94.6,8.14,13,
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22JKON004,5,130,360,1,37.5,cheese cloth,Jessica,D,15-8-2022,93.3,94.6,8.14,13,
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22LBER039,5,,360,1,37.5,Cheese cloth,,A,,100,94.6,8.14,13,0.5
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,75,94.6,8.14,13,0.5
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,100,94.6,8.14,13,0.5
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22LBER047,5,,360,1,37.5,Cheese cloth,,B,,85.7,94.6,8.14,13,0.5
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,100,94.6,8.14,13,0.5
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,100,94.6,8.14,13,0.5
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,100,94.6,8.14,13,0.5
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,8-Jun,100,94.6,8.14,13,0.5
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,90.3,94.6,8.14,13,0.5
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,85.7,94.6,8.14,13,0.5
+TQ-0043661,COC=C(C(=O)OC)C(=O)OC,Batch 6.2,22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,11-okt,6.25,27.5,23.9,6,
+TQ-0043661,COC=C(C(=O)OC)C(=O)OC,Batch 6.2,22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,12-okt,71.4,27.5,23.9,6,
+TQ-0043661,COC=C(C(=O)OC)C(=O)OC,Batch 6.2,22RHEN055,5,130,360,,37.5,Cheese cloth,Rob,B,11-okt,31.8,27.5,23.9,6,
+TQ-0043661,COC=C(C(=O)OC)C(=O)OC,Batch 6.2,22JKON029,5,,360,1,37.5,cheese cloth,Jessica,D,12/9/2022,27.3,27.5,23.9,6,
+TQ-0043661,COC=C(C(=O)OC)C(=O)OC,Batch 6.2,22JKON023,5,,360,1,37.5,cheese cloth,Jessica,D,6/9/2022,21.1,27.5,23.9,6,
+TQ-0043661,COC=C(C(=O)OC)C(=O)OC,Batch 6.2,22JKON023,5,,360,1,37.5,cheese cloth,Jessica,D,6/9/2022,7.14,27.5,23.9,6,
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22JKON029,5,,360,1,37.5,cheese cloth,Jessica,D,12/9/2022,0,57.5,22.6,12,
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22JKON022,5,,360,1,37.5,cheese cloth,Jessica,D,5/9/2022,63.6,57.5,22.6,12,
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22JKON022,5,,360,1,37.5,cheese cloth,Jessica,D,5/9/2022,45.5,57.5,22.6,12,
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22LBER037,5,,360,1,37.5,Cheese cloth,,A,,75,57.5,22.6,12,0.5
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22LBER038,5,,360,1,37.5,Cheese cloth,,A,,44.4,57.5,22.6,12,0.5
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,66.7,57.5,22.6,12,0.5
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,54.5,57.5,22.6,12,0.5
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,66.7,57.5,22.6,12,0.5
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,81.2,57.5,22.6,12,0.5
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,8-Jun,80,57.5,22.6,12,0.5
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,70,57.5,22.6,12,0.5
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,42.3,57.5,22.6,12,0.5
+TQ-0043608,CCN(CCC#N)c1ccccc1,"Batch 6 repellents, Expansion set 2",22LBER039,5,,360,1,37.5,Cheese cloth,,A,,28.6,59.5,19,9,0.5
+TQ-0043608,CCN(CCC#N)c1ccccc1,"Batch 6 repellents, Expansion set 2",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,60,59.5,19,9,0.5
+TQ-0043608,CCN(CCC#N)c1ccccc1,"Batch 6 repellents, Expansion set 2",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,61.5,59.5,19,9,0.5
+TQ-0043608,CCN(CCC#N)c1ccccc1,"Batch 6 repellents, Expansion set 2",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,33.3,59.5,19,9,0.5
+TQ-0043608,CCN(CCC#N)c1ccccc1,"Batch 6 repellents, Expansion set 2",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,50,59.5,19,9,0.5
+TQ-0043608,CCN(CCC#N)c1ccccc1,"Batch 6 repellents, Expansion set 2",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,80.8,59.5,19,9,0.5
+TQ-0043608,CCN(CCC#N)c1ccccc1,"Batch 6 repellents, Expansion set 2",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,8-Jun,75,59.5,19,9,0.5
+TQ-0043608,CCN(CCC#N)c1ccccc1,"Batch 6 repellents, Expansion set 2",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,66.7,59.5,19,9,0.5
+TQ-0043608,CCN(CCC#N)c1ccccc1,"Batch 6 repellents, Expansion set 2",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,80,59.5,19,9,0.5
+TQ-0043598,CC(=C)C1CCC(/C=N/O)=CC1,Batch 6 repellents,22LBER037,5,,360,1,37.5,Cheese cloth,,A,,44.4,48.9,15.5,4,0.5
+TQ-0043598,CC(=C)C1CCC(/C=N/O)=CC1,Batch 6 repellents,22LBER038,5,,360,1,37.5,Cheese cloth,,A,,66.7,48.9,15.5,4,0.5
+TQ-0043598,CC(=C)C1CCC(/C=N/O)=CC1,Batch 6 repellents,22LBER045,5,,360,1,37.5,Cheese cloth,,A,,54.5,48.9,15.5,4,0.5
+TQ-0043598,CC(=C)C1CCC(/C=N/O)=CC1,Batch 6 repellents,22LBER047,5,,360,1,37.5,Cheese cloth,,B,,30,48.9,15.5,4,0.5
+TQ-0043595,COC(=O)/C=C/c1ccc(C)cc1,Batch 6 repellents,22LBER039,5,,360,1,37.5,Cheese cloth,,A,,42.9,42.3,18.6,5,0.5
+TQ-0043595,COC(=O)/C=C/c1ccc(C)cc1,Batch 6 repellents,22LBER045,5,,360,1,37.5,Cheese cloth,,A,,11.1,42.3,18.6,5,0.5
+TQ-0043595,COC(=O)/C=C/c1ccc(C)cc1,Batch 6 repellents,22LBER045,5,,360,1,37.5,Cheese cloth,,A,,57.1,42.3,18.6,5,0.5
+TQ-0043595,COC(=O)/C=C/c1ccc(C)cc1,Batch 6 repellents,22RHEN034,5,,360,1,37.5,Cheese cloth,,B,,56,42.3,18.6,5,0.5
+TQ-0043595,COC(=O)/C=C/c1ccc(C)cc1,Batch 6 repellents,22RHEN034,5,,360,1,37.5,Cheese cloth,,B,,44.4,42.3,18.6,5,0.5
+TQ-0043594,COC(=O)c1scc(C)c1N,Batch 6 repellents,22LBER039,5,,360,1,37.5,Cheese cloth,,A,,43.8,40,25.8,3,0.5
+TQ-0043594,COC(=O)c1scc(C)c1N,Batch 6 repellents,22LBER045,5,,360,1,37.5,Cheese cloth,,A,,12.5,40,25.8,3,0.5
+TQ-0043594,COC(=O)c1scc(C)c1N,Batch 6 repellents,22LBER045,5,,360,1,37.5,Cheese cloth,,A,,63.6,40,25.8,3,0.5
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22JKON035,5,,360,1,37.5,cheese cloth,Jessica,D,22-9-2022,80,71.2,21.5,12,
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22JKON034,5,,360,1,37.5,cheese cloth,Jessica,D,20-9-2022,81.2,71.2,21.5,12,
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22JKON034,5,,360,1,37.5,cheese cloth,Jessica,D,20-9-2022,78.8,71.2,21.5,12,
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22LBER037,5,,360,1,37.5,Cheese cloth,,A,,50,71.2,21.5,12,0.5
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22LBER038,5,,360,1,37.5,Cheese cloth,,A,,77.8,71.2,21.5,12,0.5
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,75,71.2,21.5,12,0.5
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,16.7,71.2,21.5,12,0.5
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,66.7,71.2,21.5,12,0.5
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,88.9,71.2,21.5,12,0.5
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,8-Jun,95.2,71.2,21.5,12,0.5
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,57.1,71.2,21.5,12,0.5
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,87.5,71.2,21.5,12,0.5
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22JKON029,5,,360,1,37.5,cheese cloth,Jessica,D,12/9/2022,66.7,51.8,28.7,12,
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22JKON023,5,,360,1,37.5,cheese cloth,Jessica,D,6/9/2022,37.9,51.8,28.7,12,
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22JKON023,5,,360,1,37.5,cheese cloth,Jessica,D,6/9/2022,24.1,51.8,28.7,12,
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22LBER037,5,,360,1,37.5,Cheese cloth,,A,,71.4,51.8,28.7,12,0.5
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22LBER038,5,,360,1,37.5,Cheese cloth,,A,,77.8,51.8,28.7,12,0.5
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,85.7,51.8,28.7,12,0.5
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,35.7,51.8,28.7,12,0.5
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,9.09,51.8,28.7,12,0.5
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,16.7,51.8,28.7,12,0.5
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,8-Jun,100,51.8,28.7,12,0.5
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,50,51.8,28.7,12,0.5
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,46.2,51.8,28.7,12,0.5
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22JKON029,5,,360,1,37.5,cheese cloth,Jessica,D,12/9/2022,80,89.3,10.8,12,
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22JKON022,5,,360,1,37.5,cheese cloth,Jessica,D,5/9/2022,88,89.3,10.8,12,
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22JKON022,5,,360,1,37.5,cheese cloth,Jessica,D,5/9/2022,87.5,89.3,10.8,12,
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22LBER039,5,,360,1,37.5,Cheese cloth,,A,,100,89.3,10.8,12,0.5
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,90.9,89.3,10.8,12,0.5
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,88.2,89.3,10.8,12,0.5
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,62.5,89.3,10.8,12,0.5
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,85.7,89.3,10.8,12,0.5
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,88.2,89.3,10.8,12,0.5
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,8-Jun,100,89.3,10.8,12,0.5
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,100,89.3,10.8,12,0.5
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,100,89.3,10.8,12,0.5
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22JKON012,5,130,360,1,37.5,cheese cloth,Jessica,D,23-8-2022,75,77.6,21.6,12,
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22JKON011,5,130,360,1,37.5,cheese cloth,Jessica,D,22-8-2022,85,77.6,21.6,12,
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22JKON011,5,130,360,1,37.5,cheese cloth,Jessica,D,22-8-2022,88.2,77.6,21.6,12,
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22LBER039,5,,360,1,37.5,Cheese cloth,,A,,71.4,77.6,21.6,12,0.5
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,80,77.6,21.6,12,0.5
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,62.5,77.6,21.6,12,0.5
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,18.8,77.6,21.6,12,0.5
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,73.3,77.6,21.6,12,0.5
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,86.7,77.6,21.6,12,0.5
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,8-Jun,100,77.6,21.6,12,0.5
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,94.7,77.6,21.6,12,0.5
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,95.2,77.6,21.6,12,0.5
+TQ-0043518,CCC/C=C1\OC(=O)C2=C1C=CC=C2,"Batch 5 repellents, Tested on Culex",22JKON035,5,,360,1,37.5,cheese cloth,Jessica,D,22-9-2022,33.3,67.3,23.4,6,
+TQ-0043518,CCC/C=C1\OC(=O)C2=C1C=CC=C2,"Batch 5 repellents, Tested on Culex",22JKON033,5,,360,1,37.5,cheese cloth,Jessica,D,19-9-2022,55,67.3,23.4,6,
+TQ-0043518,CCC/C=C1\OC(=O)C2=C1C=CC=C2,"Batch 5 repellents, Tested on Culex",22JKON033,5,,360,1,37.5,cheese cloth,Jessica,D,19-9-2022,53.3,67.3,23.4,6,
+TQ-0043518,CCC/C=C1\OC(=O)C2=C1C=CC=C2,"Batch 5 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,3-Aug,84.6,67.3,23.4,6,0.5
+TQ-0043518,CCC/C=C1\OC(=O)C2=C1C=CC=C2,"Batch 5 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,3-Aug,88.9,67.3,23.4,6,0.5
+TQ-0043518,CCC/C=C1\OC(=O)C2=C1C=CC=C2,"Batch 5 repellents, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,5-Aug,88.9,67.3,23.4,6,0.5
+TQ-0043511,CCN(CC)C1=CC=C(C=O)C=C1,"Batch 5 repellents, Expansion set 2, Tested on Culex",22JKON035,5,,360,1,37.5,cheese cloth,Jessica,D,22-9-2022,100,97.4,3.17,6,
+TQ-0043511,CCN(CC)C1=CC=C(C=O)C=C1,"Batch 5 repellents, Expansion set 2, Tested on Culex",22JKON033,5,,360,1,37.5,cheese cloth,Jessica,D,19-9-2022,100,97.4,3.17,6,
+TQ-0043511,CCN(CC)C1=CC=C(C=O)C=C1,"Batch 5 repellents, Expansion set 2, Tested on Culex",22JKON033,5,,360,1,37.5,cheese cloth,Jessica,D,19-9-2022,92.3,97.4,3.17,6,
+TQ-0043511,CCN(CC)C1=CC=C(C=O)C=C1,"Batch 5 repellents, Expansion set 2, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,3-Aug,96.2,97.4,3.17,6,0.5
+TQ-0043511,CCN(CC)C1=CC=C(C=O)C=C1,"Batch 5 repellents, Expansion set 2, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,3-Aug,95.8,97.4,3.17,6,0.5
+TQ-0043511,CCN(CC)C1=CC=C(C=O)C=C1,"Batch 5 repellents, Expansion set 2, Tested on Culex",22RHEN043,5,,360,1,37.5,Cheese cloth,,B,5-Aug,100,97.4,3.17,6,0.5
+TQ-0003163,CC(CO)CCCC1=CC=CC=C1,"Fragrances, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,90,52.2,46.7,3,
+TQ-0003163,CC(CO)CCCC1=CC=CC=C1,"Fragrances, Tested on Culex",23JKON051,130,,5,1,37.5,Cheese cloth,Jessica,D,21-7-2023,0,52.2,46.7,3,
+TQ-0003163,CC(CO)CCCC1=CC=CC=C1,"Fragrances, Tested on Culex",23JKON051,130,,5,1,37.5,Cheese cloth,Jessica,D,21-7-2023,66.7,52.2,46.7,3,
+TQ-0003081,CCCCCCCC1CCC(=O)O1,"Fragrances, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,68.8,87,16.3,3,
+TQ-0003081,CCCCCCCC1CCC(=O)O1,"Fragrances, Tested on Culex",23JKON051,130,,5,1,37.5,Cheese cloth,Jessica,D,21-7-2023,100,87,16.3,3,
+TQ-0003081,CCCCCCCC1CCC(=O)O1,"Fragrances, Tested on Culex",23JKON051,130,,5,1,37.5,Cheese cloth,Jessica,D,21-7-2023,92.3,87,16.3,3,
+TQ-0003076,CCCCCC(C=O)=CC1=CC=CC=C1,"Fragrances, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,70,67.8,16.8,3,
+TQ-0003076,CCCCCC(C=O)=CC1=CC=CC=C1,"Fragrances, Tested on Culex",23JKON050,130,,5,1,37.5,Cheese cloth,Jessica,D,20-7-2023,83.3,67.8,16.8,3,
+TQ-0003076,CCCCCC(C=O)=CC1=CC=CC=C1,"Fragrances, Tested on Culex",23JKON050,130,,5,1,37.5,Cheese cloth,Jessica,D,20-7-2023,50,67.8,16.8,3,
+TQ-0003025,CC(=O)N1CCCc2ccccc21,"Batch 3 repellents, Batch 6.2, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,90,25.6,60.5,3,
+TQ-0003025,CC(=O)N1CCCc2ccccc21,"Batch 3 repellents, Batch 6.2, Tested on Culex",23JKON050,130,,5,1,37.5,Cheese cloth,Jessica,D,20-7-2023,16.7,25.6,60.5,3,
+TQ-0003025,CC(=O)N1CCCc2ccccc21,"Batch 3 repellents, Batch 6.2, Tested on Culex",23JKON050,130,,5,1,37.5,Cheese cloth,Jessica,D,20-7-2023,-30,25.6,60.5,3,
+TQ-0003015,CC(O)CCCOCc1ccccc1,"Batch 4 repellents, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,23.1,23.1,,1,
+TQ-0003015,CC(O)CCCOCc1ccccc1,"Batch 4 repellents, Tested on Culex",23JKON050,130,,5,1,37.5,Cheese cloth,Jessica,D,20-7-2023,62.5,70.1,10.8,2,
+TQ-0003015,CC(O)CCCOCc1ccccc1,"Batch 4 repellents, Tested on Culex",23JKON050,130,,5,1,37.5,Cheese cloth,Jessica,D,20-7-2023,77.8,70.1,10.8,2,
+TQ-0002993,CCC1CCCCN1C(=O)CC(C)=O,Batch 4 repellents,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,44.4,19.8,28.3,3,0.5
+TQ-0002993,CCC1CCCCN1C(=O)CC(C)=O,Batch 4 repellents,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,-11.1,19.8,28.3,3,0.5
+TQ-0002993,CCC1CCCCN1C(=O)CC(C)=O,Batch 4 repellents,22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,26.1,19.8,28.3,3,0.5
+TQ-0002884,CCCCCC1C(CC(=O)OC)CCC1=O,"Batch 1 repellents, Tested on Culex",23JKON052,130,,5,1,37.5,Cheese cloth,Jessica,D,25-7-2023,21.4,58.5,33.8,3,
+TQ-0002884,CCCCCC1C(CC(=O)OC)CCC1=O,"Batch 1 repellents, Tested on Culex",23JKON050,130,,5,1,37.5,Cheese cloth,Jessica,D,20-7-2023,87.5,58.5,33.8,3,
+TQ-0002884,CCCCCC1C(CC(=O)OC)CCC1=O,"Batch 1 repellents, Tested on Culex",23JKON050,130,,5,1,37.5,Cheese cloth,Jessica,D,20-7-2023,66.7,58.5,33.8,3,
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22JKON079,5,,360,1,37.5,cheese cloth,Jessica,D,22-11-2011,95,77.6,36.1,23,
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22JKON079,5,,360,1,37.5,cheese cloth,Jessica,D,22-11-2011,82.4,77.6,36.1,23,
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22LBER047,5,,360,1,37.5,Cheese cloth,,B,,78.9,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22LBER037,5,,360,1,37.5,Cheese cloth,,A,,100,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22LBER038,5,,360,1,37.5,Cheese cloth,,A,,92.9,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22LBER039,5,,360,1,37.5,Cheese cloth,,A,,84.6,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22LBER042,5,,360,1,37.5,Cheese cloth,,A,,82.4,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22LBER043,5,,360,1,37.5,Cheese cloth,,A,,100,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22LBER044,5,,360,1,37.5,Cheese cloth,,A,,80,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22LBER045,5,,360,1,37.5,Cheese cloth,,A,,88.9,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22LBER046,5,,360,1,37.5,Cheese cloth,,A,,89.3,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22MVLO318,5,,360,1,37.5,Cheese cloth,,C,31-May-22,-71.4,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22MVLO319,5,,360,1,37.5,Cheese cloth,,C,1-Jun-22,68.4,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22MVLO320,5,,360,1,37.5,Cheese cloth,,C,3-Jun,66.7,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,14-Jun,100,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,94.4,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22RHEN032,5,,360,1,37.5,Cheese cloth,,B,,92,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22RHEN034,5,,360,1,37.5,Cheese cloth,,B,,92.3,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,100,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,88.9,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,87.5,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22MVLO321,5,,360,1,37.5,Cheese cloth,,C,,33.3,77.6,36.1,23,0.5
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",22RHEN035,5,,360,1,37.5,Cheese cloth,,B,,57.7,77.6,36.1,23,0.5

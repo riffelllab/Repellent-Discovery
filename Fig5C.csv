@@ -1,0 +1,66 @@
+Molecule_ID,SMILES,Collections,Average_Repellency_Anopheles,Average_Repellency_Culex,Average_Repellency_Aedes,Average_Repellency_ATC,ED50,Average_Repellency_Ixodes,IS_bedbug_repellency,IS_flea_repellency,IS_lice_repellency,IS_tick_repellency,Average_Score,Average_Repellency_Anopheles_binary,Average_Repellency_Culex_binary,Average_Repellency_Aedes_binary,Average_Repellency_ATC_binary,Average_Repellency_Ixodes_binary,IS_tick_repellency_binary,IS_bedbug_repellency_binary,IS_flea_repellency_binary,IS_lice_repellency_binary,ED50_binary
+TQ-0043739,CSc1ccc(CO)cc1,Batch 6.2,43.32333333,,81.05,-40.2,,11.1,76.22,70.55,10,29.83333333,35.23458333,0,,1,0,0,0,1,1,0,
+TQ-0043674,CC(N(C)C)c1cccc(O)c1,"Batch 6.2, Glomeruli Aedes, Tested on Culex",63.6,92.4,72.65,-23.7,0.735024014,100,33.3,75.1,7.65,42.13333333,45.14257576,0,1,1,0,1,0,0,1,0,0
+TQ-0043694,CCOC(=O)C1CCCNC1=O,"Batch 6.2, Glomeruli Aedes",11.4,,-22.25,-8.54,,37.5,22.2,11.1,0,8.333333333,7.467916667,0,,0,0,0,0,0,0,0,
+TQ-0043843,COC(=O)[C@@H]1COC(C)(C)N1C(=O)OC(C)(C)C,Batch 7 repellents,31.7,,,-6.11,,,,,,,12.795,0,,,0,,,,,,
+TQ-0043703,CC(=O)OCOC(COC(C)=O)COC(C)=O,Batch 6.2,53.53333333,,66.85,4.98,23.63937966,6.25,75.025,22.2,26.66666667,7,29.44933333,0,,0,0,0,0,1,0,0,1
+TQ-0043805,CN(C)c1ccc(C=O)cc1,"Analogs, Tested on Culex",97.36666667,100,100,6.43,0.894623668,54.95,,,,,58.99857143,1,1,1,0,0,,,,,0
+TQ-0044232,CC(C)(C)OC(=O)N1CCC(C(C)(C)N)CC1,"Expansion set 4, Tested on Culex",86.8,100,100,9.93,1.353320724,84.6,,,,,61.55333333,1,1,1,0,1,,,,,1
+TQ-0043828,CCCCOc1c(OCCCC)c(=O)c1=O,Batch 7 repellents,58.06666667,,,13.4,231.635164,,52.6,0,0,10.5,18.01791667,0,,,0,,0,0,0,0,1
+TQ-0043708,CC/C=C(\C)C(O)=O,Batch 6.2,45.8,,,15,,,,,,,30.4,0,,,0,,,,,,
+TQ-0044166,CC(C)(C)OC(=O)N1CCC2(CCCC2=O)CC1,Expansion set 3,42.33666667,,,17.1,2.241965427,,,,,,18.18875,0,,,0,,,,,,1
+TQ-0043680,COC(=O)c1ccc(C(=O)OC)o1,"Batch 6.2, Glomeruli Aedes",30.63666667,,36.4,17.2,,50,61.26666667,5.6,0,0.013333333,25.13958333,0,,0,0,0,0,0,0,0,
+TQ-0002993,CCC1CCCCN1C(=O)CC(C)=O,Batch 4 repellents,69.1,,,19.8,,,,,,,44.45,0,,,0,,,,,,
+TQ-0043846,CCOC(=O)CCNCc1ccccc1,"Batch 7 repellents, Tested on Culex",100,91.25,100,22.6,6.609461991,100,21,35,0,44.4,48.47363636,1,1,1,0,1,0,0,0,0,1
+TQ-0003025,CC(=O)N1CCCc2ccccc21,"Batch 3 repellents, Batch 6.2, Tested on Culex",72.73333333,63.55,57.15,25.6,1.753419326,70.6,,,,,48.04547619,1,0,0,0,1,,,,,1
+TQ-0043661,COC=C(C(=O)OC)C(=O)OC,Batch 6.2,59.33,,53.05,27.5,1.109383132,,50,0,-2.65,16.88333333,29.00814815,0,,0,0,,0,0,0,0,0
+TQ-0043710,CCC1=C(C)CNC1=O,"Batch 6.2, Tested on Culex",86.4,100,88.5,28.4,1.73E+21,43.8,5.6,71.1,0,42.1,47.08272727,1,1,1,0,0,0,0,1,0,1
+TQ-0043808,CN(C)c1cccc(CO)c1,"Batch 7 repellents, Tested on Culex",86.4,92.3,94.75,36,3.197112141,,,,,,57.02805556,1,1,1,0,,,,,,1
+TQ-0043684,CC(C)[C@@H]1CC[C@@H](C)C[C@H]1OC(=O)C(O)O,"Batch 6.2, Tested on Culex",85.6,64.9,100,37,2.690049846,77.8,79.44,77.4,28.15,61.06666667,59.68358586,1,0,1,0,1,0,1,1,0,1
+TQ-0044235,CCOC(=O)CCNCCc1ccccc1,"Expansion set 4, Tested on Culex",100,100,100,39.2,4.121970151,,,,,,61.1725,1,1,1,0,,,,,,1
+TQ-0043594,COC(=O)c1scc(C)c1N,Batch 6 repellents,44.63333333,,,40,,88.9,83.1,69.7,0,71.91428571,56.89251701,0,,,0,1,1,1,0,0,
+TQ-0043595,COC(=O)/C=C/c1ccc(C)cc1,Batch 6 repellents,38.33366667,,,42.3,,94.4,89.41428571,34.25,10,65.1425,53.40577891,0,,,0,1,0,1,0,0,
+TQ-0044044,CCOC=C(C#N)C#N,"Expansion set 2, Tested on Culex",100,100,100,47,0.127021861,30.8,,,,,64.33119048,1,1,1,0,0,,,,,0
+TQ-0043598,CC(=C)C1CCC(/C=N/O)=CC1,Batch 6 repellents,67.93333333,,52.55,48.9,,94.4,84.37142857,91.32,2.85,80.4,65.34059524,0,,0,0,1,1,1,1,0,
+TQ-0043589,CCC(=O)Oc1c(C)occc1=O,"Batch 6 repellents, Tested on Culex",81.13333333,78.25,49.95,51.8,4.529028923,12.5,14.932,13.2,25,38.33333333,36.19093939,1,1,0,1,0,0,0,0,0,1
+TQ-0003163,CC(CO)CCCC1=CC=CC=C1,"Fragrances, Tested on Culex",78.1,100,85.2,52.2,1.9252614,100,,,,,65.98357143,1,1,1,1,1,,,,,1
+TQ-0003015,CC(O)CCCOCc1ccccc1,"Batch 4 repellents, Tested on Culex",98.55,100,100,54.43333333,3.859249979,89.15,,,,,68.16214286,1,1,1,1,1,,,,,1
+TQ-0044094,Cc1c[nH]c2ccccc12,"Expansion set 2, Tested on Culex",77.93333333,60.2,3.95,55.1,2.794797478,,,,,,41.27064815,1,0,0,1,,,,,,1
+TQ-0043649,CN(C)c1ccc(C#N)cc1,"Batch 6.2, Expansion set 2, Tested on Culex",89.46666667,100,89.6,57.5,2.34E-11,88.9,86.2,76.775,23.05,73.825,68.56681818,1,1,1,1,1,1,1,1,0,0
+TQ-0002884,CCCCCC1C(CC(=O)OC)CCC1=O,"Batch 1 repellents, Tested on Culex",97.1,84.85,94.05,58.5,5.81501E+12,47.1,,,,,62.52166667,1,1,1,1,0,,,,,1
+TQ-0043608,CCN(CCC#N)c1ccccc1,"Batch 6 repellents, Expansion set 2",40.73833333,,90.9,59.5,,88.9,88.24285714,93.58,7.65,85.7,69.40139881,0,,1,1,1,1,1,1,0,
+TQ-0043794,CCN(CC)c1ccc(C#N)cc1,"Analogs, Tested on Culex",97.53333333,100,81.6,61.2,0.397176241,58.1,,,,,65.65142857,1,1,1,1,0,,,,,0
+TQ-0044161,O=C(c1ccccc1)c1cccnc1,"Expansion set 3, Tested on Culex",97.73333333,100,100,61.2,1.187820306,100,57.9,0,-5.3,26.3,52.64030303,1,1,1,1,1,0,0,0,0,0
+TQ-0043867,CC(=O)OCCOCOC(C)=O,"Batch 7 repellents, Expansion set 2",30.2,,,64,,30,,,,,41.4,0,,,1,0,,,,,
+TQ-0044095,Cc1ccc(C(=O)c2ccccc2)cc1,"Expansion set 2, Tested on Culex",93.33333333,96.55,100,65.8,0.852409209,61.1,,,,,64.13357143,1,1,1,1,0,,,,,0
+TQ-0044165,CC(C)(C)OC(=O)N1CCC2(CCC2=O)CC1,"Expansion set 3, Tested on Culex",76.36666667,63.9,82.45,66.4,0.465425657,69.75,,,,,55.92880952,1,0,1,1,0,,,,,0
+TQ-0043518,CCC/C=C1\OC(=O)C2=C1C=CC=C2,"Batch 5 repellents, Tested on Culex",95.525,84.75,95.1,67.3,1.542742349,100,93.05,85,15,83.4125,69.33032828,1,1,1,1,1,1,1,1,0,1
+TQ-0003076,CCCCCC(C=O)=CC1=CC=CC=C1,"Fragrances, Tested on Culex",92.06666667,73.35,38.35,67.8,3.51353274,70.6,,,,,56.52880952,1,1,0,1,1,,,,,1
+TQ-0044160,O=C(c1ccccc1)c1ccccn1,"Expansion set 3, Tested on Culex",95.5,100,100,69.6,1.058519252,94.8,57.9,30,0,5.2,53.03651515,1,1,1,1,1,0,0,0,0,0
+TQ-0043718,CCCCn1sc2ccccc2c1=O,"Batch 6.2, Tested on Culex",100,100,100,70.9,0.6298429,100,81.08,87,10,87.41428571,70.62160173,1,1,1,1,1,1,1,1,0,0
+TQ-0043590,CC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Batch 6 repellents, Expansion set 4, Tested on Culex",94,61.15,100,71.2,1.648763894,38.13333333,76.48,75.7,2.5,72.23333333,58.0119697,1,0,1,1,0,1,1,1,0,1
+TQ-0044074,COc1ccc(C=O)c(OC)c1,"Expansion set 2, Tested on Culex",97.46666667,100,100,71.3,0.683746833,61.1,,,,,70.76928571,1,1,1,1,0,,,,,0
+TQ-0044076,CCOC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 2, Expansion set 4, Tested on Culex",79,100,40.8,72.4,1.062501189,52.9,,,,,55.59547619,1,1,0,1,0,,,,,0
+TQ-0044066,COC(=O)C1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 2, Tested on Culex",87.06666667,95.35,55.8,72.7,0.603343294,70.6,55.5,25,5.3,73.63333333,54.09068182,1,1,0,1,1,1,0,0,0,0
+TQ-0043841,[O-][N+](=O)c1ccc(C=O)c([N+]([O-])=O)c1,"Batch 7 repellents, Tested on Culex",89.66666667,97.15,44.15,74.8,5.226615786,93.8,63.1,75.46666667,0,61.1,56.0819697,1,1,0,1,1,0,0,1,0,1
+TQ-0043807,CC1CN(Cc2ccccc2)CCC1=O,"Batch 7 repellents, Tested on Culex",92.53333333,58.55,83.05,76.9,2.063637696,83.3,89.45,91.25,5,87.52,65.15537879,1,0,1,1,1,1,1,1,0,1
+TQ-0002864,CCN(CC)C(=O)c1cccc(C)c1,"Batch 1 repellents, Glomeruli Aedes, Tested on Culex",93.675,100,75.6,77.6,1.383081605,84.68,49.1,74.3,,72.84444444,69.7365404,1,1,1,1,1,1,0,1,,1
+TQ-0043579,COc1ccc(C=O)c(OC)c1OC,"Batch 6 repellents, Tested on Culex",100,94.6,79.1,77.6,1.597324959,88.9,77.92,86.8,35,68.0875,69.11042929,1,1,1,1,1,0,1,1,0,1
+TQ-0044100,CN(CCC#N)c1ccccc1,"Expansion set 2, Tested on Culex",82.60333333,100,100,79.2,0.825745944,98.4,83.9,85.62,0,89.43333333,70.82727273,1,1,1,1,1,1,1,1,0,0
+TQ-0044185,CC(C)(N)C(=O)NCC1CCCC1,Expansion set 3,93.86666667,,,79.3,1.37405765,,,,,,54.83097222,1,,,1,,,,,,1
+TQ-0043820,CCO/C(C)=C(\C#N)C(=O)OCC,"Batch 7 repellents, Tested on Culex",90.96666667,84.85,100,79.4,0.558686137,100,47.4,31.6,5,87.73333333,60.72818182,1,1,1,1,1,1,0,0,0,0
+TQ-0043863,CCCCCc1ccc(C(C)=O)cc1,Batch 7 repellents,43.6,,,80.6,,90,,,,,71.4,0,,,1,1,,,,,
+TQ-0043681,CCC(C)OC(=O)N1CCCCC1CCO,"Batch 6.2, Glomeruli Aedes, Tested on Culex",81.3,100,95.45,86.2,2.02712924,79.77619048,,,,,71.71717262,1,1,1,1,1,,,,,1
+TQ-0003081,CCCCCCCC1CCC(=O)O1,"Fragrances, Tested on Culex",71.8,75.2,86.35,87,0.700457035,100,,,,,68.74428571,1,1,1,1,1,,,,,0
+TQ-0043810,O=C(c1ccccc1)c1ccncc1,"Batch 7 repellents, Tested on Culex",96.73333333,89.6,51.85,89.1,0.418947892,94.4,86.75,50.86666667,10,68.46,63.11772727,1,1,0,1,1,0,1,0,0,0
+TQ-0043587,COc1ccc2c(c1)C(=O)CCC2,"Batch 6 repellents, Tested on Culex",88.9,49.3,56.1,89.3,1.178540116,100,88.24,83.36,20,71.6875,63.6944697,1,0,0,1,1,1,1,1,0,0
+TQ-0044221,CCCC1CCN(C(=O)OC(C)(C)C)CC1,"Expansion set 4, Tested on Culex",71.5,82.75,100,89.9,1.929179497,100,,,,,68.83714286,1,1,1,1,1,,,,,1
+TQ-0044162,O=C(c1ccccc1)c1ccccc1,Expansion set 3,62.2,,,90.2,0.397506599,90,88.03333333,65.7,-5.3,68.4,56.25635802,0,,,1,1,0,1,0,0,0
+TQ-0043768,CC(=O)C1C(=O)OC(C)=CC1=O,"Batch 6.2, Glomeruli Aedes, Tested on Culex",96.9,-2.2,84.3,90.3,1.82848943,77.8,72.2,84.4,10,68.53333333,55.21782828,1,0,1,1,1,0,1,1,0,1
+TQ-0044230,CC(=O)C1CCN(C(=O)OC(C)(C)C)C1,"Expansion set 4, Tested on Culex",100,81.95,60.8,90.5,3.521517673,38.5,,,,,58.92087302,1,1,0,1,0,,,,,1
+TQ-0043689,CCOC(C)=C(C#N)C#N,"Batch 6.2, Tested on Culex",83.73333333,100,100,94.5,0.625505106,56.2,33.3,20.6,2.5,17.53333333,51.80886364,1,1,1,1,0,0,0,0,0,0
+TQ-0043668,Cc1[nH]c2ccccc2c1C,"Batch 6.2, Tested on Culex",100,92.7,80.8,94.6,0.404407073,83.3,85.1,86.32,23.05,87.5,71.91333333,1,1,1,1,1,1,1,1,0,0
+TQ-0043866,CCOC(CC(C#N)C(=O)OCC)OCC,"Batch 7 repellents, Tested on Culex",87.13333333,87.35,44.3,95.7,0.759423199,73.05,52.6,51.3,0,57.78,55.18242424,1,1,0,1,1,0,0,0,0,0
+TQ-0043511,CCN(CC)C1=CC=C(C=O)C=C1,"Batch 5 repellents, Expansion set 2, Tested on Culex",100,100,73.1,97.4,0.300177532,100,86.3,77.78,5,78.82857143,72.07163781,1,1,1,1,1,1,1,1,0,0
+TQ-0043842,CC(=O)c1ccccc1[N+]([O-])=O,Batch 7 repellents,66.63333333,,,98.9,0.161831431,90,66.7,81.46666667,2.5,57.86666667,59.25574074,0,,,1,1,0,0,1,0,0
+TQ-0043859,CCCCN(CCC#N)c1ccccc1,"Batch 7 repellents, Tested on Culex",100,76.25,72.75,99.2,0.649433483,38.9,95.78,15.8,5,75.88,58.25964646,1,1,1,1,0,1,1,0,0,0
