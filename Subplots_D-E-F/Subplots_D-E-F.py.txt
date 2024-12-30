@@ -1,0 +1,418 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jan 31 14:12:43 2024
+
+@author: Khronos
+
+Compound labelling
+For the figure, compounds were sorted from smaller to largest according to their repellency. 
+Notice that there is no data on the repellency of TQ-0002991 or Ethanol (negative control)
+
+Figure labels	Molecule ID	Aedes rep%	Exp. Label	Name
+				
+	1	TQ-0043503	100 			6	4-Methoxy-3-nitropyridine
+	2	TQ-0043681	95.45			25	icaridin
+	3	TQ-0043522	86.85			13	1-(2,3-dihydro-1H-indol-1-yl)ethan-1-one
+	4	TQ-0043678	86.6			23	4-(piperidin-4-yl)morpholine
+	5	TQ-0043768	84.3			40	dehydroacetic acid
+	6	TQ-0043539	83.9			17	2,2-dimethyl-2,3-dihydro-1-benzofuran-7-ol
+	7	TQ-0043690	81.05			27	tert-butyl N-(6-aminohexyl)carbamate
+	8	TQ-0043739	81.05			39	[4-(methylsulfanyl)phenyl]methanol
+	9	TQ-0002864	75.6			1	DEET
+	10	TQ-0043517	75			    10  5-methoxy-1,2,3,4-tetrahydronaphthalen-2-one
+	11	TQ-0043500	73.95			5	1-(2,6-DIMETHOXYPHENYL)ETHANONE
+	12	TQ-0043674	72.65			21	3-[1-(dimethylamino)ethyl]phenol
+	13	TQ-0043719	72.2			34	ethyl (2S,3R)-3-[(4R)-2,2-dimethyl-1,3-dioxolan-4-yl]-2,3-dihydroxy-2-methylpropanoate
+	14	TQ-0043728	63.9			38	isopropyl (2Z)-3-aminobut-2-enoate
+	15	TQ-0043676	61.05			22	2-(4-methylphenyl)pyridine
+	16	TQ-0043521	59.3			12	1-[4-(propan-2-yl)phenyl]methanamine
+	17	TQ-0043716	57.7			32	pentaerythritol diacrolein acetal
+	18	TQ-0043712	55.3			31	glutarimide, 3,3-dimethyl-
+	19	TQ-0043705	53.8			30	[2-(methylamino)pyridin-3-yl]methanol
+	20	TQ-0043513	53.65			7	6-methylpyridin-3-ol
+	21	TQ-0043566	45  			18	Trimethyl citrate
+	22	TQ-0043680	36.4			24	2,5-dimethyl furan-2,5-dicarboxylate
+	23	TQ-0043724	35.85			36	dimethyl hydroxymethyl pyrazole
+	24	TQ-0043572	33.115			19	Ethyl 3-Amino-1H-pyrazole-4-carboxylate
+	25	TQ-0043534	32.965			16	3,3-dimethyl-2,3-dihydro-1H-inden-1-one
+	26	TQ-0043574	21.4			20	2-Methyl 1-boc-4-hydroxypyrrolidine-2-carboxylate
+	27	TQ-0043533	19.35			15	2,2,4-trimethyl-1,2-dihydroquinoline
+	28	TQ-0043693	19.1			28	3-methyl valeric acid
+	29	TQ-0043516	12.3			9	2-methyl-1H-indole-3-carbaldehyde
+	30	TQ-0043727	9.22			37	4-pentylcyclohexan-1-one
+	31	TQ-0002990	5.1 			2	3-hydroxyadamantane-1-carboxylic acid
+	32	TQ-0043490	-0.325			4	2-Hydroxy-2-methylpropiophenone
+	33	TQ-0043515	-1.95			8	2-hydroxy-3-methylbenzaldehyde
+	34	TQ-0043720	-4.025			35	thiazole, 2-propionyl-
+	35	TQ-0043524	-6.4			14	4-(2-methylpropoxy)benzaldehyde
+	36	TQ-0043520	-15.685			11	2,6-dimethyl-1,4-dihydropyridin-4-one
+	37	TQ-0043717	-20.915			33	methylcyclopentenolone
+	38	TQ-0043688	-21.57			26	1-acetylpiperidine-4-carboxylic acid
+	39	TQ-0043694	-22.25			29	ethyl 2-oxopiperidine-3-carboxylate
+	40	TQ-0002991	NA  			3	1-[amino(phenyl)methyl]cyclopropan-1-ol
+	41	Control		NA  		Neg_ctrl	Ethanol
+
+
+
+"""
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
+from scipy.cluster.hierarchy import dendrogram, linkage
+from sklearn.preprocessing import StandardScaler
+
+# Read the datasets
+odor_fingerprint_data = pd.read_csv('40_odor_fingerprint_data.csv', index_col=False)
+odor_fingerprint_data = odor_fingerprint_data.T
+odor_neural_act_data = pd.read_csv('40_odor_neural_act_data.csv', index_col=False)
+odor_neural_act_data = odor_neural_act_data.T
+
+#adding color to the dots
+color_dict = {
+ '1': '#ff0000',
+ '2': '#ff0000',
+ '3': '#ff0000',
+ '4': '#ff0000',
+ '5': '#ff0000',
+ '6': '#ff0000',
+ '7': '#ff0000',
+ '8': '#ff0000',
+ '9': '#ff0000',
+ '10': '#ff0000',
+ '11': '#f90000',
+ '12': '#f30000',
+ '13': '#f00000',
+ '14': '#c60000',
+ '15': '#b70000',
+ '16': '#ae0000',
+ '17': '#a60000',
+ '18': '#9a0000',
+ '19': '#920000',
+ '20': '#920000',
+ '21': '#660000',
+ '22': '#3a0000',
+ '23': '#370000',
+ '24': '#290000',
+ '25': '#280000',
+ '26': '#000000',
+ '27': '#000000',
+ '28': '#000000',
+ '29': '#000000',
+ '30': '#000000',
+ '31': '#000000',
+ '32': '#000000',
+ '33': '#000000',
+ '34': '#000047',
+ '35': '#000073',
+ '36': '#0000ab',
+ '37': '#0000f3',
+ '38': '#0000f3',
+ '39': '#0000f3',
+ '40': '#000000', #there's no behavioral data for this compound
+ 'Control': 'gray'
+}
+
+
+# Function to perform PCA and plot
+def pca_and_plot(data, title, color_dict, fig_size=(10, 8)):
+    # Transpose the data so that compounds are now rows
+    data_transposed = data
+
+    scaler = StandardScaler()
+    # Scale the transposed data
+    data_scaled = scaler.fit_transform(data_transposed)
+
+    pca = PCA(n_components=2, svd_solver='full', random_state=42) #svd_solver='full' forces the big matrix to be analyzed in its entirety instead of heuristically truncated. This way there's only one solution to the clustering
+    # Perform PCA on the scaled, transposed data
+    principal_components = pca.fit_transform(data_scaled)
+    principal_df = pd.DataFrame(data=principal_components, columns=['PC1', 'PC2'], index=data_transposed.index)
+
+    fig = plt.figure(figsize=fig_size)
+    # Plot each point, coloring according to the color_dict
+    for i in range(principal_df.shape[0]):
+        plt.scatter(principal_df.iloc[i, 0], principal_df.iloc[i, 1], color=color_dict.get(principal_df.index[i], 'black'), s=90, alpha=1)
+    
+    plt.title(title)
+    plt.xlabel('Principal Component 1')
+    plt.ylabel('Principal Component 2')
+    #plt.grid(True)
+    #plt.show()
+
+    return principal_df, fig
+
+
+
+# PCA plots
+#pca_data_fingerprint = pca_and_plot(odor_fingerprint_data, 'PCA of Odor Fingerprint Data', color_dict)
+#pca_data_neural = pca_and_plot(odor_neural_act_data, 'PCA of Odor Neural Activity Data', color_dict)
+
+# PCA plots and save figures - Fingerprint PCA can be generated but it is not part of the figure
+pca_data_fingerprint, fig_fingerprint = pca_and_plot(odor_fingerprint_data, 'PCA of Odor Fingerprint Data', color_dict)
+fig_fingerprint.savefig('pca_fingerprint.svg', format='svg', bbox_inches='tight')
+plt.close(fig_fingerprint)
+
+pca_data_neural, fig_neural = pca_and_plot(odor_neural_act_data, 'PCA of Odor Neural Activity Data', color_dict)
+fig_neural.savefig('Subplot_E_PCA.svg', format='svg', bbox_inches='tight')
+plt.close(fig_neural)
+
+
+#Colorbar for the PCA and related figures. This is based on the dictionary
+
+from matplotlib.colors import LinearSegmentedColormap, Normalize
+
+
+# Define the colors using the specified hexadecimal values
+colors = ['#0000ff', '#000000', '#ff0000']  # Blue, Black, Red
+positions = [0.0, 0.25, 1.0]  # Positions of color transitions, normalized from 0 to 1
+
+# Create a colormap
+cmap = LinearSegmentedColormap.from_list("custom_colormap", list(zip(positions, colors)))
+
+# Create a normalize object that maps the data range to the range [0, 1]
+norm = Normalize(vmin=-25, vmax=100)
+fig,ax = plt.subplots(figsize=(2,10))
+
+# Create a scalar mappable object with the colormap
+sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
+sm.set_array([])
+
+# Plot the colorbar with adjustments
+# `aspect` controls the aspect ratio of the color bar
+# `shrink` controls the length of the color bar. A value less than 1 shrinks the color bar.
+cbar = plt.colorbar(sm,ticks=np.linspace(-25, 100, 6), boundaries=np.arange(-25, 101, 1))
+cbar.set_label('Average repellency (%)')
+
+plt.title("Color Bar")
+plt.axis('off')
+plt.savefig('color_bar.svg', format='svg')
+plt.show()
+
+
+
+
+# Hierarchical Clustering
+
+
+linkage_fingerprint = linkage(pca_data_fingerprint, 'ward')
+linkage_neural = linkage(pca_data_neural, 'ward')
+
+# Plotting Dendrograms side by side
+fig, axes = plt.subplots(1, 2, figsize=(6, 9))
+
+
+# Set the x-axis to a logarithmic scale
+axes[0].set_xscale('log')
+axes[1].set_xscale('log')
+
+# Since log scale can't have zero, set a lower limit (if needed)
+axes[0].set_xlim(right=0.05)
+axes[1].set_xlim(left=0.05)
+
+
+# Odor Fingerprint Data Dendrogram
+dendro1 = dendrogram(linkage_fingerprint, ax=axes[0], orientation='left', labels=pca_data_fingerprint.index, leaf_font_size=10, color_threshold=0, above_threshold_color='black')
+axes[0].set_title('Chemical fingerprint')
+axes[0].set_xlabel('Euclidean Distance')
+
+# Odor Neural Activity Data Dendrogram
+dendro2 = dendrogram(linkage_neural, ax=axes[1], orientation='right', labels=pca_data_neural.index, leaf_font_size=10, color_threshold=0, above_threshold_color='black')
+axes[1].set_title('Glomerular activity')
+axes[1].set_xlabel('Euclidean Distance')
+# Remove the top, left, and right spines of the plot, keep the bottom (x-axis)
+for ax in axes:
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+
+plt.tight_layout()
+
+#plt.savefig('trees_04.jpeg', format='jpeg')
+plt.savefig('Subplot_F_Trees.svg', format='svg')
+plt.show()
+
+
+#the following lines are meant to take the order found in the dendrograms (which is always consistent because we are specifying an svd_solver = 'full') 
+#and use the location of the labels to draw lines joining corresponding elements across the trees
+
+
+import svgwrite
+
+# Define the lists for left and right columns
+left_column = [
+    '7',
+    '21',
+    '39',
+    '14',
+    '38',
+    '30',
+    '28',
+    '4',
+    '31',
+    '5',
+    '24',
+    '37',
+    '22',
+    '17',
+    '18',
+    '32',
+    'Control',
+    '19',
+    '12',
+    '10',
+    '15',
+    '29',
+    '1',
+    '6',
+    '25',
+    '27',
+    '8',
+    '40',
+    '35',
+    '20',
+    '9',
+    '33',
+    '34',
+    '16',
+    '23',
+    '3',
+    '36',
+    '11',
+    '13',
+    '26',
+    '2'
+]
+
+
+right_column = [
+    '13',
+    '28',
+    '1',
+    '8',
+    '24',
+    '27',
+    '38',
+    '6',
+    'Control',
+    '26',
+    '18',
+    '5',
+    '39',
+    '35',
+    '19',
+    '23',
+    '17',
+    '20',
+    '21',
+    '25',
+    '10',
+    '15',
+    '3',
+    '34',
+    '2',
+    '29',
+    '11',
+    '37',
+    '12',
+    '14',
+    '7',
+    '4',
+    '22',
+    '36',
+    '31',
+    '40',
+    '33',
+    '32',
+    '30',
+    '16',
+    '9'
+]
+
+# Initialize SVG drawing
+dwg = svgwrite.Drawing('Subplot_F_connections.svg', profile='tiny')
+
+# Define starting points for the left and right columns
+left_column_x = 10
+right_column_x = 300
+y_increment = 20  # The increment in the y-direction for each element
+current_y = 10
+
+# Create a mapping from left to right elements based on their order
+mapping = {left: right for left, right in zip(left_column, left_column)}
+
+# Draw lines between matching pairs in the SVG
+for left_id, right_id in mapping.items():
+    # Find the index of the right_id in the right column to get the y-coordinate
+    right_index = right_column.index(right_id)
+    left_y = current_y
+    right_y = right_index * y_increment + 10  # Offset by 10 to align with the left column starting y
+
+    # Add the text labels to the SVG
+    dwg.add(dwg.text(left_id, insert=(left_column_x, left_y)))
+    dwg.add(dwg.text(right_id, insert=(right_column_x, right_y)))
+
+    # Draw a line between the corresponding elements
+    dwg.add(dwg.line((left_column_x + 100, left_y), (right_column_x - 10, right_y), stroke=svgwrite.rgb(0, 0, 0, '%')))
+
+    # Increment the y-coordinate for the next element in the left column
+    current_y += y_increment
+
+# Save the SVG file
+dwg.save()
+
+
+
+#The following part of the script is intended to generate the neural activity heatmap based on the file in the folder
+
+
+import seaborn as sns
+from matplotlib.colors import Normalize
+from matplotlib.colorbar import ColorbarBase
+from matplotlib.cm import ScalarMappable
+
+
+# Load the data
+data = pd.read_csv("40_odor_neural_act_data_repellency_ordered.csv", index_col=0).T
+
+# Parameters for customization
+fig_size = (14, 12)  # Figure size
+font_size = 12  # Font size for axis labels and title
+colorbar_font_size = 10  # Font size for color bar labels
+colorbar_scale = (0.5, 0.5)  # Scale of the color bar (width, height)
+colorbar_location = (0.93, 0.15, 0.02, 0.7)  # Location of the color bar (left, bottom, width, height)
+title = "Mean glomerular activity during stimulation"
+x_axis_title = "Glomeruli"
+y_axis_title = "Compounds"
+custom_vmin = 0  # Custom minimum value for the colormap
+custom_vmax = 0.4  # Custom maximum value for the colormap
+x_label_rotation = 0  # Rotation angle for x-axis labels
+
+# Manually specified x-axis ticks
+x_ticks = [9, 19, 29, 39, 49]  # Adjust this list to include the positions of the ticks you want
+
+# Create the heatmap
+plt.figure(figsize=fig_size)
+ax = sns.heatmap(data, cmap="magma", cbar=False, vmin=custom_vmin, vmax=custom_vmax,  linewidths=0, linecolor='none')
+ax.set_title(title, fontsize=font_size)
+ax.set_xlabel(x_axis_title, fontsize=font_size)
+ax.set_ylabel(y_axis_title, fontsize=font_size)
+
+# Set manually specified x-axis ticks and labels
+ax.set_xticks([tick + 0.5 for tick in x_ticks])  # Adjust tick positions to be centered
+ax.set_xticklabels(data.columns[x_ticks], rotation=x_label_rotation, fontsize=font_size)  # Use specified tick labels
+
+plt.yticks(fontsize=font_size)  # Adjust y-tick font size
+
+# Create color bar
+norm = Normalize(vmin=custom_vmin, vmax=custom_vmax)
+sm = ScalarMappable(norm=norm, cmap="magma")
+cax = plt.gcf().add_axes(colorbar_location)
+cbar = ColorbarBase(cax, cmap="magma", norm=norm, orientation='vertical')
+cbar.ax.tick_params(labelsize=colorbar_font_size)  # Adjust the color bar tick font size
+
+# Save the figure
+plt.savefig("Subplot_D_heatmap_neural_activity.svg", format='svg', bbox_inches='tight')
+#plt.savefig("heatmap_neural_activity.png", format='png', dpi=300, bbox_inches='tight')
+plt.show()
+

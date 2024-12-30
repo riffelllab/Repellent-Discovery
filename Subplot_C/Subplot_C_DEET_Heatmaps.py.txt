@@ -1,0 +1,337 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 26 20:42:15 2023
+
+@author: Nobody
+"""
+
+import numpy as np
+import os
+import glob
+import csv
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+from sklearn.decomposition import PCA
+
+# Get the current script's directory
+#script_dir = os.path.dirname(os.path.abspath(__file__))
+script_dir = os.getcwd()
+
+# List all subdirectories in the script's directory
+subdirectories = [d for d in os.listdir(script_dir) if os.path.isdir(os.path.join(script_dir, d))]
+
+# Loop over the subdirectories
+for subdir in subdirectories:
+    # Define folder_path as the full path to the subdirectory
+    folder_path = os.path.join(script_dir, subdir)
+    
+    # Get list of all CSV files in folder
+    file_list = glob.glob(os.path.join(folder_path, '*.csv'))
+    
+    # Create an empty list to store numpy arrays
+    data_list = []
+    
+    # Loop through each CSV file and import data
+    for file_path in file_list:
+        # Open CSV file
+        with open(file_path, 'r') as csvfile:
+            # Read CSV file using csv.reader
+            csvreader = csv.reader(csvfile)
+            # Skip first row (i.e., header row)
+            next(csvreader)
+            # Convert data to numpy array
+            data = np.array([row[1:] for row in csvreader]).astype(float)
+            # Append numpy array to data_list
+            data_list.append(data)
+    
+    # Combine all numpy arrays into a single numpy array
+    glomeruli_data_raw = np.stack(data_list, axis=-1).astype(float)
+    
+    # Calculate the average of the 12th to 18th values for each column to be used as the
+    # baseline activity per t-series, per ROI.
+    avg_12_to_18 = np.mean(glomeruli_data_raw[11:18, :,:], axis=0)
+    #this array is (32,2), I need it to be (52,32,2)
+    # Repeat the first row along the vertical axis to extend the array
+    avg_12_to_18 = np.tile(avg_12_to_18, (52, 1,1))
+    
+    
+    # Subtract the average from each value in raw_data and divide by the average
+    glomeruli_normalized_data = (glomeruli_data_raw - avg_12_to_18) / avg_12_to_18
+    
+    #Calculate the mean activity over the available samples
+    mean_activity = np.mean(glomeruli_normalized_data, axis=2)
+    
+    #save the normalized dataset as CSV
+    #np.savetxt(os.path.join(folder_path, f"{subdir}-01-normalized_matrix.csv"), mean_activity, delimiter=",")
+    
+    #Line plots
+    # Calculate the SEM for the normalized data
+    sem_activity = np.std(glomeruli_normalized_data, axis=2) / np.sqrt(glomeruli_normalized_data.shape[2])
+
+
+
+# Loop over each column in mean_activity to generate plots
+for i in range(mean_activity.shape[1]):
+    fig, ax = plt.subplots()
+    
+    # Recalculate the time axis to center the stimulus onset at 0
+    # Convert frame numbers to seconds relative to the stimulus onset
+    time_axis = (np.arange(mean_activity.shape[0]) - 20) * 0.5
+    
+    # Plot the shaded area for the stimulation period adjusted for the new time frame
+    # The stimulation period now corresponds to 0 to 2 seconds on the new time axis
+    ax.axvspan(0 * 0.5, 4 * 0.5, color='gray', alpha=0.2)  # Adjusted to use the new time scale
+    
+    # Plot mean activity for the current ROI with specified color
+    ax.plot(time_axis, mean_activity[:, i], label=f'ROI {i+1}', color = "#0000ff")
+    
+    # Add SEM shading
+    ax.fill_between(time_axis, mean_activity[:, i] - sem_activity[:, i], mean_activity[:, i] + sem_activity[:, i], color= "#0000ff", alpha=0.2)
+    
+    # Customize the plot
+    ax.set_xlabel('Time relative to stimulus onset (s)')
+    ax.set_ylabel(r'Mean neural activity ($\Delta F/F_{0}$)')  # This is the perfect syntax to refer to the change in fluorescence
+    ax.set_title(f'ROI {i+1} Activity')
+    ax.set_ylim([-0.1, 1])
+    
+    # Specify the y-axis ticks and labels
+    ax.set_yticks([0, 0.5, 1])
+    ax.set_yticklabels(['0', '0.5', '1'])
+    
+    # Adjust x-axis limits to reflect the new time frame from -10 to 16 seconds
+    ax.set_xlim([-5, 15])
+    
+    # Remove existing x-axis ticks and labels to prepare for the scale bar
+    ax.set_xticks([])  # This removes the x-axis ticks
+    
+    # Optionally, remove y-axis ticks if you want a cleaner look
+    # ax.set_yticks([])
+    
+    # Add a scale bar for 5 seconds
+    scale_bar_start = 10  # Starting point of the scale bar on the x-axis
+    scale_bar_end = scale_bar_start + 5  # End point of the scale bar, representing 5 seconds
+    ax.plot([scale_bar_start, scale_bar_end], [-0.08, -0.08], color='black', lw=2)  # Draw the scale bar
+    
+    # Add text to label the scale bar
+    ax.text((scale_bar_start + scale_bar_end) / 2, -0.12, '5 s', ha='center', va='top')
+
+    
+    ax.legend()
+    
+    # Save the plot
+    plt.savefig(os.path.join(folder_path, f"{subdir}-ROI_{i+1}.png"), dpi=300)
+    plt.savefig(os.path.join(folder_path, f"{subdir}-ROI_{i+1}.svg"), dpi=300)
+    plt.close()
+
+    
+    
+    #generate a transposed version for the heatmap
+    mean_activity_trp = np.transpose(mean_activity)
+    
+    #heatmap
+    #set up figure and axis objects
+    fig, ax = plt.subplots(figsize=(8,5))
+   
+    #show only 4 seconds before the stimulus and 10 seconds after
+    heatmap = ax.imshow(mean_activity_trp[:,11:39], cmap='magma', extent=[-4,10,11,1], vmin=-0.0, vmax=0.5)
+    
+    # Set y-ticks to show every number from 28 to 50
+    ax.set_yticks(range(1, 12))
+
+    # Optionally, set custom y-tick labels (here it's just the numbers themselves)
+    ax.set_yticklabels(range(1, 12)) 
+
+    # add vertical line at t=0
+    plt.axvline(x = 0, color = 'red', label = 'axvline - full height')
+    
+    #add colorbar
+    cbar = plt.colorbar(heatmap)
+    
+    #set axis labels and title
+    
+    
+    ax.set_ylabel('ROI number')
+    ax.set_xlabel('Time (s)')
+    
+    ax.set_title('Mean relative neural response')
+    
+    #save figure
+    plt.savefig(os.path.join(folder_path,f'{subdir}-Mean_activity_scale.svg'), format='svg', dpi=300)
+    plt.savefig(os.path.join(folder_path,f'{subdir}-Mean_activity_scale.jpg'), format='jpeg', dpi=300)
+    
+    #Save the mean ROI activity during stimulation as a CSV
+    #frames 19 to 23 correspond to times 10.37 to 11.93, 4 frames or roughly 2 seconds
+    roi_activity = np.mean(mean_activity_trp[:,19:23], axis=1)
+    np.savetxt(os.path.join(folder_path, f"{subdir}-02-mean_act-15um.csv"), roi_activity, delimiter=",")
+
+
+
+
+
+#PCA Data collector
+# Get the directory where the script is located
+script_directory = os.path.dirname(os.path.realpath(__file__))
+
+# Initialize an empty matrix to store the data
+data_matrix = []
+
+# Loop through each folder in the script directory
+for folder_name in os.listdir(script_directory):
+    folder_path = os.path.join(script_directory, folder_name)
+    
+    # Check if the folder contains the CSV file
+    csv_file_path = os.path.join(folder_path, '02-mean_act-15um.csv')
+    if os.path.isfile(csv_file_path):
+        # Read the CSV file and append the data as a new column in the matrix
+        with open(csv_file_path, 'r') as csvfile:
+            csvreader = csv.reader(csvfile)
+            data = [row for row in csvreader]
+            if not data_matrix:
+                data_matrix = data  # If data_matrix is empty, just use the first data
+            else:
+                for i, row in enumerate(data):
+                    data_matrix[i].extend(row)  # Add each element of data to the corresponding row in data_matrix
+
+# Add the labels to the top row
+
+labels = [
+    "Comp_01",
+    "Comp_02",
+    "Comp_03",
+    "Comp_04",
+    "Comp_05",
+    "Comp_06",
+    "Comp_07",
+    "Comp_08",
+    "Comp_09",
+    "Comp_10",
+    "Comp_11",
+    "Comp_12",
+    "Comp_13",
+    "Comp_14",
+    "Comp_15",
+    "Comp_16",
+    "Comp_17",
+    "Comp_18",
+    "Comp_19",
+    "Comp_20",
+    "Comp_21",
+    "Comp_22",
+    "Comp_23",
+    "Comp_24",
+    "Comp_25",
+    "Comp_26",
+    "Comp_27",
+    "Comp_28",
+    "Comp_29",
+    "Comp_30",
+    "Comp_31",
+    "Comp_32",
+    "Comp_33",
+    "Comp_34",
+    "Comp_35",
+    "Comp_36",
+    "Comp_37",
+    "Comp_38",
+    "Comp_39",
+    "Comp_40",
+    "Neg_Ctrl"
+]
+data_matrix.insert(0, labels)
+
+# Convert the data matrix to a NumPy array
+data_matrix = np.array(data_matrix)
+
+# Save the PCA data matrix
+output_file_path = os.path.join(script_directory, 'PCA_matrix_15um.csv')
+np.savetxt(output_file_path, data_matrix, delimiter=',', fmt='%s')
+
+print(f'Data has been collected and saved to {output_file_path}')
+
+# Generate a heatmap
+# Extract the data without labels
+data_for_heatmap = data_matrix[1:, :].astype(float).T
+
+# Create a heatmap with customizable color scale and save as PNG
+plt.figure(figsize=(8, 12))
+# Adjust the color scale using the 'vmin' and 'vmax' parameters
+sns.heatmap(data_for_heatmap, cmap='magma', yticklabels=labels[:], xticklabels=[1,2,3,4,5,6,7,8,9,10,11], vmin=0, vmax=0.4)
+plt.title('Glomerular activity during stimulation at 15um')
+plt.xlabel('ROI')
+plt.savefig(os.path.join(script_directory, 'heatmap.png'), format='png')  # Save as PNG
+plt.show()
+
+
+"""
+#PCA
+# read the CSV file into a pandas DataFrame and transpose it
+df = pd.read_csv('PCA_matrix_15um.csv', index_col=0).T
+
+# perform PCA analysis on the transposed data
+pca = PCA()
+pca.fit(df)
+pca_data = pca.transform(df)
+
+#Define a dictionary that maps each label to a specific color according to their repellency index
+#colors for ROI_matrix_PCA
+#label_colors = {'label1': 'red', 'label2': 'orange', 'label3': 'blue','label4': 'blue', 'label5': 'orange', 'label6': 'blue','label7': 'blue', 'label8': 'orange', 'label9': 'blue', 'label10': 'black'}
+#label_colors = {'1-Hexanol': 'red', '1-Nonanol': 'red', '3-Octanol': 'red','Citronellal': 'green', 'Breath': 'green', 'Decanal': 'green','DEET': 'red', 'Eucalyptol': 'red', 'Heptanal': 'green', 'Hexanal': 'green', 'Lemon_oil':'green', 'Nonanal':'green', 'Octanal':'green', 'Picaridin':'red', 'Sock':'green', 'Undecanal':'green', 'NegCtrl':'blue'}
+
+#colors = [label_colors[label] for label in df.index]
+
+# plot the results with colored labels
+#plt.figure(figsize=(12, 10))
+#plt.scatter(pca_data[:, 0], pca_data[:, 1])
+
+plt.figure(figsize=(12, 10))
+#plt.scatter(pca_data[:, 0], pca_data[:, 1], c=colors)
+plt.scatter(pca_data[:, 0], pca_data[:, 1])
+plt.xlabel('PC1')
+plt.ylabel('PC2')
+plt.title('PCA Analysis')
+
+
+
+# add labels for each point
+for i, label in enumerate(df.index):
+    x, y = pca_data[i, 0], pca_data[i, 1]
+    plt.text(x, y, label)
+    #plt.text(x, y, label, color=label_colors[label])
+
+# save the plot as SVG and JPEG files
+plt.savefig('pca_analysis_color-coded.svg')
+plt.savefig('pca_analysis_color-coded.jpg', dpi=1200)
+
+plt.show()
+"""
+
+'''
+#heatmap
+
+# Extract the labels from the first row of the CSV file
+with open('PCA_matrix_mosq04.csv', 'r') as file:
+    labels = file.readline().strip().split(',')
+
+#set up figure and axis objects
+fig, ax = plt.subplots(figsize=(8,12))
+
+heatmap = ax.imshow(pca_data, cmap='magma', vmin=-0.0, vmax=1.2)
+
+#add colorbar
+cbar = plt.colorbar(heatmap)
+
+#set axis labels and title
+ax.set_ylabel('Stimuli')
+ax.set_xlabel('ROI')
+
+# Set y-axis labels using the extracted labels from the CSV file
+ax.set_yticks(np.arange(len(labels)))  # Set the tick positions
+ax.set_yticklabels(labels)  # Set the tick labels
+
+ax.set_title('Glomerular activity patterns at 15 μm')
+
+#save figure
+plt.savefig('Mean_activity.svg', format='svg', dpi=300)
+plt.savefig('Mean_activity.jpg', format='jpeg', dpi=300)
+'''

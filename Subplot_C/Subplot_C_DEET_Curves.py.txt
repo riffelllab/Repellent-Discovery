@@ -1,0 +1,101 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Feb  6 11:45:00 2024
+
+@author: Khronos
+"""
+
+import numpy as np
+import os
+import glob
+import csv
+import matplotlib.pyplot as plt
+
+# Get the current script's directory
+script_dir = os.getcwd()
+
+# List all subdirectories in the script's directory
+subdirectories = [d for d in os.listdir(script_dir) if os.path.isdir(os.path.join(script_dir, d))]
+
+# Loop over the subdirectories
+for subdir in subdirectories:
+    # Define folder_path as the full path to the subdirectory
+    folder_path = os.path.join(script_dir, subdir)
+    
+    # Determine the starting ROI number based on the folder name
+    if subdir == 'DEET_15um':
+        roi_start_num = 1
+    elif subdir == 'DEET_30um':
+        roi_start_num = 17
+    elif subdir == 'DEET_45um':
+        roi_start_num = 28
+    else:
+        roi_start_num = 1  # Default start number, adjust as needed
+
+    # Get list of all CSV files in folder
+    file_list = glob.glob(os.path.join(folder_path, '*.csv'))
+    
+    # Create an empty list to store numpy arrays
+    data_list = []
+    
+    # Loop through each CSV file and import data
+    for file_path in file_list:
+        with open(file_path, 'r') as csvfile:
+            csvreader = csv.reader(csvfile)
+            next(csvreader)  # Skip first row (header row)
+            data = np.array([row[1:] for row in csvreader]).astype(float)
+            data_list.append(data)
+    
+    # Combine all numpy arrays into a single numpy array
+    glomeruli_data_raw = np.stack(data_list, axis=-1).astype(float)
+    
+    # Calculate the average of the 12th to 18th values for each column
+    avg_12_to_18 = np.mean(glomeruli_data_raw[11:18, :, :], axis=0)
+    avg_12_to_18 = np.tile(avg_12_to_18, (52, 1, 1))
+    
+    # Subtract the average from each value in raw_data and divide by the average
+    glomeruli_normalized_data = (glomeruli_data_raw - avg_12_to_18) / avg_12_to_18
+    
+    # Calculate the mean activity over the available samples
+    mean_activity = np.mean(glomeruli_normalized_data, axis=2)
+    
+    # Calculate the SEM for the normalized data
+    sem_activity = np.std(glomeruli_normalized_data, axis=2) / np.sqrt(glomeruli_normalized_data.shape[2])
+
+    # Loop over each column in mean_activity to generate plots
+    for i in range(mean_activity.shape[1]):
+        fig, ax = plt.subplots()
+        time_axis = (np.arange(mean_activity.shape[0]) - 20) * 0.5
+        
+        # Adjust ROI label based on folder
+        roi_label = f'ROI {i + roi_start_num}'
+        
+        ax.axvspan(0 * 0.5, 4 * 0.5, color='gray', alpha=0.2)
+        ax.plot(time_axis, mean_activity[:, i], label=roi_label, color="#0000ff")
+        ax.fill_between(time_axis, mean_activity[:, i] - sem_activity[:, i], mean_activity[:, i] + sem_activity[:, i], color="#0000ff", alpha=0.2)
+        
+        ax.set_xlabel('Time relative to stimulus onset (s)')
+        ax.set_ylabel(r'Mean neural activity ($\Delta F/F_{0}$)')
+        ax.set_title(roi_label + " Activity")
+        ax.set_ylim([-0.1, 1])
+        ax.set_yticks([0, 0.5, 1])
+        ax.set_yticklabels(['0', '0.5', '1'])
+        ax.set_xlim([-3, 15])
+        ax.set_xticks([-3,0,5,10,15])  # Remove x-axis ticks for scale bar
+        scale_bar_start = 10  # Starting point of the scale bar on the x-axis
+        scale_bar_end = scale_bar_start + 5  # End point of the scale bar, representing 5 seconds
+        ax.plot([scale_bar_start, scale_bar_end], [-0.08, -0.08], color='black', lw=2)
+        ax.text((scale_bar_start + scale_bar_end) / 2, -0.12, '5 s', ha='center', va='top')
+        
+        # Only remove the top and right spines to keep the y-axis visible
+        ax.spines['top'].set_visible(False)
+        ax.spines['right'].set_visible(False)
+        
+        # Optionally, you can also make the bottom and left spines more pronounced if desired
+        ax.spines['bottom'].set_visible(True)
+        ax.spines['left'].set_linewidth(0.5)
+        
+        # Save the plot
+        plt.savefig(os.path.join(folder_path, f"{subdir}-{roi_label}.png"), dpi=300)
+        plt.savefig(os.path.join(folder_path, f"{subdir}-{roi_label}.svg"), dpi=300)
+        plt.close()
